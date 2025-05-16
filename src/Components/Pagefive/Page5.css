@@ -1,0 +1,129 @@
+.pagefivee{
+ background-color: black;
+ height: 180vh;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ width: 95vw;
+ background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+border-radius: 25px;
+ margin:30px;
+ font-family: "Poppins", sans-serif;
+}
+.imgpg5{
+height: 750px;
+width: 840px;
+margin-bottom: 30px;
+object-fit: cover;
+}
+.pg5section1{
+     display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin: 95px;
+gap: 80px;
+}
+.pgsection11{
+    margin-bottom: 100px;
+}
+.h2ofpg5{
+    font-size: 50px;
+}
+.h2color{
+   background: linear-gradient(180deg, #FFFFFF 0%, #2E44BA 100%);
+   -webkit-background-clip:text;
+   color: transparent;
+   display: inline-block;
+}
+.h2ofpg51{
+font-size: 73px;
+font-weight: 500;
+color:rgba(255, 255, 255, 1);
+line-height: 68pt;
+}
+.pofpg5{
+    font-size: 22px;
+   /* padding-right: 20px; */
+   color:rgba(255, 255, 255, 1);
+   line-height: 20pt;
+   margin-top: -45px;
+   font-weight: 300;
+}
+.pg5section2{
+     display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin: auto;
+}
+.canada{
+    height: 35px;
+    width: 280px;
+    border: 0.5px solid white;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+   color: #FFFFFF;
+   margin-top: -50px;
+   word-spacing: 10px;
+   padding-right: 25px;
+
+}
+
+.usa{
+    border-radius: 10px;
+    color:rgba(20, 20, 20, 1);
+    border: 0.5px solid white;
+    padding-top: 10px;
+    padding-left: 106px;
+    border-radius: 20px;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+}
+.h2ofpg52{
+font-size: 80px;
+color: white;
+margin-top: -70px;
+font-weight: 500;
+}
+
+.pg5section3{
+     display: flex;
+ flex-direction: row;
+  margin:30px;
+}
+.imgpg51{
+height: 450px;
+width: 790px;
+margin-bottom: 240px;
+object-fit: cover;
+}
+.pg5section3{
+     display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin: auto;
+ gap: 30px;
+}
+.pofpg51{
+    font-size: 23px;
+    color:rgba(255, 255, 255, 1);
+    height: 490px;
+    font-weight: 500;
+    width: 800px;
+    border: 1px solid white ;
+    margin-bottom: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    color: rgba(20, 20, 20, 1);
+    border-radius: 30px;
+    line-height: 1.4;
+   
+}

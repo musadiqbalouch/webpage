@@ -1,0 +1,38 @@
+.pagefour{
+    height: 63vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 105px;
+     align-items: center;
+    justify-content: center;
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 25pt; */
+}
+.pgfourbox{
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    
+}
+.pg4heading{
+    width: 407;
+height: 73;
+margin: 50px;
+margin: -10px;
+font-weight: 500;
+    font-size: 75px;
+   color:rgba(181, 37, 46, 1);
+
+}
+.ptagofpg4{
+    font-size: 22px;
+    color:rgba(20, 20, 20, 1);
+    margin: -8px;
+    margin: 5px;
+    line-height: 20pt;
+}
+

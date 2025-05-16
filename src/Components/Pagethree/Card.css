@@ -1,9 +1,10 @@
 .cardcontainer{
     display: flex;
     flex-direction: column;
-    height: 770px;
-    width:310px;
-    border: 3px solid white;
+    height: 760px;
+    /* padding: 20px; */
+    width:250px;
+    border: 1px solid white;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
@@ -12,12 +13,12 @@
 }
 
 .cardcontainer:hover{
-    height: 735px;
+    height: 725px;
     width:450px;
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 30px;
-     transition: .30s ease-out;
-      transition: .30s ease-in;
+     transition: .32s ease-out;
+      transition: .33s ease-in;
 
     padding: 20px
 }
@@ -27,6 +28,7 @@
 }
 .cardcontainer:hover .pdetail{
     display: block;
+   
 }
 .cardcontainer:hover .detailbtn{
     display: block;
@@ -37,15 +39,16 @@
     rotate: +360deg;
 }
 .img{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     height: 250px;
     width: 200px;
     object-fit: fill;
 }
 .title{
-    font-size: 50px;
+    font-size: 45px;
+    gap: 30px;
     color: white;
-   padding: 20px;
+   padding: 15px;
    rotate: -90deg;
 justify-content: space-around;
 }
