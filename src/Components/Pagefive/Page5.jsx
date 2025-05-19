@@ -23,9 +23,12 @@ const Page5 =() =>{
                              environment, conserve natural resources, and sustain our planet for future generations.</p>
                     </div>
                 </div >
+                <div className="bottle">
+                    <h2>Bottle <span className="h2color">Bill States</span></h2>
+                </div>
                 <div className="pg5section2">
-                    <h2 className="h2ofpg52">Bottle <span className="h2color">Bill States </span></h2>
-                    <h3 className="canada"> <span className="usa"> USA </span>Canada</h3>
+                    <button className="usa">USA</button>
+                    <button className="canada">CANADA</button>
                 </div>
                 <div className="pg5section3">
                     <img  className="imgpg51"src="src/assets/Page5img2.png"/>
@@ -38,7 +41,7 @@ const Page5 =() =>{
                            problem of empty <br /> aluminum can and  plastic bottle disposal, ten (10) US States <br />plus Guam,
                             have adopted legislation commonly referred as <br /> the “BOTTLE BILL LAWS”.  These Laws require
                              all beverage <br />sretailers to give a cash refund of 5¢ or 10¢ back to customer <br /> for each
-                              empty aluminum can, and plastic bottle returned to <br /> the retailer.
+                              empty aluminum can, and plastic bottle returned to br the retailer.
                     </p>
                 </div>
         </div>

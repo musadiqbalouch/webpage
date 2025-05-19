@@ -50,38 +50,58 @@ line-height: 68pt;
    margin-top: -45px;
    font-weight: 300;
 }
+.bottle{
+height: 50px;
+width: 100%;
+text-align: center;
+margin-top: -90px;
+margin-bottom: 110px;
+font-size: 45px;
+color: white;
+justify-content: space-between;
+font-weight: 100;
+}
 .pg5section2{
-     display: flex;
- flex-direction: column;
+  /* margin: 100px; */
+ display: flex;
+ flex-direction: row;
  align-items: center;
  justify-content: center;
  text-align: center;
  margin: auto;
+ height: 50px;
+ width: 300px;
+ border: 1px solid white;
+ border-radius: 20px;
+  background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+}
+.usa{
+    font-size: 22px;
+   height: 50px;
+   width: 150px;
+   border-radius: 20px;
+   background: transparent;
+   border: 0cap;
+   color: white;
 }
 .canada{
-    height: 35px;
-    width: 280px;
-    border: 0.5px solid white;
-    text-align: center;
-    border-radius: 25px;
-    padding-top: 10px;
+      font-size: 22px;
+     height: 50px;
+   width: 150px;
+   border-radius: 20px;
+    background: transparent;
+    border: 0cap;
     color: white;
-    font-size: 25px;
-   color: #FFFFFF;
-   margin-top: -50px;
-   word-spacing: 10px;
-   padding-right: 25px;
-
 }
-
-.usa{
-    border-radius: 10px;
-    color:rgba(20, 20, 20, 1);
-    border: 0.5px solid white;
-    padding-top: 10px;
-    padding-left: 106px;
-    border-radius: 20px;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+.canada:hover{
+     font-size: 23px;
+   background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+.usa:hover{
+     font-size: 23px;
+   background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
 }
 .h2ofpg52{
 font-size: 80px;
@@ -93,7 +113,8 @@ font-weight: 500;
 .pg5section3{
      display: flex;
  flex-direction: row;
-  margin:30px;
+  /* margin:50px; */
+padding-top: 30px;
 }
 .imgpg51{
 height: 450px;
@@ -125,5 +146,4 @@ object-fit: cover;
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.4;
-   
 }
