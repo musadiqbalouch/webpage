@@ -1,0 +1,124 @@
+.header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page8{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.page8imgg{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 400px;
+}
+.page8img{
+    height: 500px;
+    width: 500px;
+}
+.page8heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(20, 20, 20, 1);
+    margin-bottom: -30px;
+}
+.spancolor{
+     color:rgba(181, 37, 46, 1);
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    display: flex;
+    flex-direction: row;    
+    gap: 140px;
+    margin: 30px;
+    padding-left: -30px;
+}
+.h2heading{
+    font-size: 40px;
+    color:rgba(181, 37, 46, 1);
+      margin-bottom: -1px;
+}
+.h222heading{
+      font-size: 40px;
+    color:rgba(181, 37, 46, 1);
+    margin-bottom: -5px;
+    margin-top: 60px;
+}
+.subbtn{
+    height: 90px;
+    width: 670px;
+    border: 3px solid rgba(181, 37, 46, 1);;
+    border-radius: 20px;
+}
+.entermail{
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+     border-radius: 20px;
+    border: 0;
+}
+.input.entermail{
+    border: none;
+}
+.entermail::placeholder{
+    font-size: 20px;
+    color: rgba(20, 20, 20, 1);
+}
+.subsribebtn{
+     height: 55px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background:rgba(181, 37, 46, 1);
+    color: white;
+    font-size: 20px;
+}
+
+.h22heading{
+margin-top: 40px;
+}
+.subcribeptag{
+color: rgba(20, 20, 20, 1);
+
+    font-size: 27px;
+}
+.links{ 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 62px;
+}
+.link{
+    color: rgba(20, 20, 20, 1);
+     font-size: 27px;
+     padding-top: 4px;
+     text-decoration: none;
+}
+.footerr{
+    font-size: 25px;
+    font-weight: 600;
+}
+.lasttitle{
+    height: 70px;
+      background: rgba(181, 37, 46, 1);
+      text-align: center;
+      color: white;
+      padding-top: 2px;
+}
+.cc{
+    padding: 2px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 45px;
+}
+.contacts{
+    font-size: 23px;
+    color: rgba(181, 37, 46, 1);;
+}

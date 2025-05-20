@@ -13,7 +13,7 @@
    color: white;
    font-size: 10px;
    position: fixed;
-  
+  /* gap: 10px; */
 }
 .img1{
 height: 250px;
@@ -24,14 +24,14 @@ padding-top: 35px;
 .info{
     color: rgba(255, 255, 255, 1);
     height: 40px;
-    width: 700px;
+    width: 1100px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
     border: 1px solid white;
     padding: 20px 10px 20px 10px;
-    gap: 70px;
+    gap: 120px;
     border-radius: 10px;
     font-size: 15px;
     background-color: rgba(0, 0,0, 0.23);

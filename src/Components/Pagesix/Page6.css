@@ -3,15 +3,15 @@
   width: 100%;
   background-image: url(../../assets/Page6backimg.jpg);
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   padding-right: 41px;
+  margin-left: -40px;
+   margin-right: -40px;
 }
-
-
 .pagesixheading{
     height: 150px;
-    width: 100%;
+    /* width: 900; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -32,9 +32,9 @@
     color: white;
 }
 .containerr{
-    padding-right: 20px;
+    /* padding-right: 20px; */
     height: 80vh;
-    width: 100%; 
+    /* width: 400;  */
     align-items: center;
     justify-content: center;
     display: flex ;
@@ -42,16 +42,16 @@
 }
 .imgleft{
     height: 1200px;
-    width: 1300px;
+    width: 500px;
 }
 .imgright{
       height: 1200px;
-    width: 1300px;
+    width: 500px;
     /* margin-right: 70px */
 }
 .video{
   height: 490px;
-  width: 1100px;
+  width: 1000px;
   margin-bottom: 230px;
   /* padding: 110px; */
    border-left: 85px solid black; 

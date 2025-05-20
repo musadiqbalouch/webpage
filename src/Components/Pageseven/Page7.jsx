@@ -15,31 +15,31 @@ const page7 = ()=>{
     <div className="checkboxpart1">
     <div className="check1">
         <input  className="xox"type="checkbox" />
-        <label>CAN-IT BAGS</label>
+        <label className="label">CAN-IT BAGS</label>
     </div> 
     <div  className="check1">
          <input  className="xox"type="checkbox" />
-        <label>BOTTLE-IT BAGS</label>
+        <label className="label">BOTTLE-IT BAGS</label>
     </div>
     <div  className="check1">
          <input  className="xox"type="checkbox" />
-        <label>BAG-IT BAGS</label>
+        <label className="label">BAG-IT BAGS</label>
     </div>
     <div className="check1">
          <input  className="xox"type="checkbox" />
-        <label>TAKE-IT BAGS - CUSTOMER TAKE OUT BAGS</label>
+        <label className="label">TAKE-IT BAGS - CUSTOMER TAKE OUT BAGS</label>
     </div>
     <div className="check1">
  <input  className="xox"type="checkbox" />
-        <label>TRASH-IT BAGS 13 GAL - TALL KITCHEN DRAWSTRING TRASH BAGS</label>
+        <label className="label">TRASH-IT BAGS 13 GAL - TALL KITCHEN DRAWSTRING TRASH BAGS</label>
     </div>
     <div className="check1">
  <input  className="xox"type="checkbox" />
-        <label>TRASH-IT BAGS 33 GAL - LARGE TRASH BAGS</label>
+        <label className="label">TRASH-IT BAGS 33 GAL - LARGE TRASH BAGS</label>
     </div>
     <div className="check2">
          <input  className="xox"type="checkbox" />
-        <label>BAG-IT BAGS</label>
+        <label className="label">BAG-IT BAGS</label>
     </div>
     </div>
 <div>
