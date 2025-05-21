@@ -1,10 +1,10 @@
-.cardcontainer{
+.cardcontainer {
     display: flex;
     flex-direction: column;
-    height: 760px;
+    height: 530px;
     /* padding: 20px; */
-    width:300px;
-    border: 1px solid white;
+    width: 180px;
+    border: 2px solid white;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
@@ -12,65 +12,78 @@
 
 }
 
-.cardcontainer:hover{
-    height: 725px;
-    width:450px;
-    border: 1px solid white;
+.cardcontainer:hover {
+    height: 490px;
+    width: 300px;
+    border: 2px solid white;
     border-radius: 30px;
-     transition: .32s ease-out;
-      transition: .33s ease-in;
-
+    transition: .32s linear;
+    /* transition: .33s ease-in; */
     padding: 20px
 }
-.cardcontainer:hover .img{
-     height: 350px;
-    width: 300px;
-}
-.cardcontainer:hover .pdetail{
-    display: block;
-   
-}
-.cardcontainer:hover .detailbtn{
-    display: block;
-}
-.cardcontainer:hover .title{
-    font-size: 55px;
-    color: white;
-    rotate: +360deg;
-}
-.img{
-    margin-bottom: 70px;
-    height: 250px;
-    width: 200px;
+
+.cardcontainer {}
+
+.cardcontainer:hover .img {
+    height: 280px;
+    width: 270px;
+    margin-bottom: -10px;
     object-fit: fill;
 }
-.title{
-    font-size: 45px;
-    gap: 30px;
-    color: white;
-   padding: 15px;
-   rotate: -90deg;
-justify-content: space-around;
+
+.cardcontainer:hover .pdetail {
+    display: block;
+
 }
-.pdetail{
-    font-size: 25px;
+
+.cardcontainer:hover .detailbtn {
+    display: block;
+}
+
+.cardcontainer:hover .title {
+    font-size: 50px;
+    color: white;
+    rotate: +360deg;
+    margin-bottom: -30px;
+}
+
+.img {
+    margin-bottom: 80px;
+    height: 180px;
+    width: 150px;
+    object-fit: fill;
+}
+
+.title {
+    font-size: 30px;
+    /* gap: 30px; */
+    color: white;
+    padding: 10px;
+    rotate: -90deg;
+    justify-content: space-around;
+}
+
+.pdetail {
+    font-size: 15px;
     color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
-   margin-top: -35px;
-   display: none;
+    /* margin-top: 50px; */
+    /* margin-bottom: -5px; */
+    display: none;
 }
-.detailbtn{
-    height: 50px;
-    width: 200px;
+
+.detailbtn {
+    height: 30px;
+    width: 170px;
     align-self: center;
     justify-content: center;
     text-align: center;
     color: rgba(181, 37, 46, 1);
-    padding: 10px;
+    padding: 5px;
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 18px;
     display: none;
-  border: 1px solid white;
+    border: 1px solid white;
 }

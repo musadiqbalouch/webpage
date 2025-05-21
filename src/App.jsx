@@ -12,17 +12,17 @@ import Page8 from './Components/PageEight/Page8';
 
 function App() {
 
-  return (  
+  return (
     <div className='setion1'>
       <Headerr />
       <Page1 />
       <Page2 />
-       <Page3 /> 
-        <Page4 />   
-        <Page5 /> 
-         <Page6 />  
-       <Page7 /> 
-      <Page8 /> 
+      <Page3 />
+      <Page4 />
+      <Page5 />
+      <Page6 />
+      <Page7 />
+      <Page8 />
     </div>
   )
 }

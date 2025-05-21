@@ -1,119 +1,134 @@
-.page7{
-    height: 100vh;
+.page7 {
+    height: 120vh;
     width: 100%;
-    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);;
-text-align: center;
-display: flex;
-flex-direction: column;
-}
-.heading{
-    align-items: center;
-    justify-content: space-around;
-    font-size: 40px;
-color: white;
-}
-.infomation{
+    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
+    text-align: center;
     display: flex;
-    margin-left: 145px;
-    margin-bottom: 40px;
-  gap: 20px;
-  font-size: 25px;
-}
-.text{
-    height: 60px;
-    width: 823px;
-    border: 0.5px solid white;
-    border-radius: 10px;
-    font-size: 18px;
-    background-color: transparent;
-       padding-left: 20px;
-}
-.text::placeholder{
-    font-size: 20px;
-   color: white;
-}
-.email::placeholder{
-     font-size: 20px;
-   color: white;
-}
-.email{
-     font-size: 25px;
-    height: 60px;
-    width: 823px;
-     border-radius: 10px;
-     background-color: transparent;
-      border: 0.5px solid white;
-      padding-left: 20px;
-      /* padding-top: 20px; */
-}
-.textarea{
-    height: 200px;
-    width: 1700px;
-     border-radius: 10px;
-     background-color: transparent;
-     color: white;
-      border: 1px solid white;
-      padding-left: 20px;
-      padding-top: 20px;
-      font-size: 25px;
-}
-.textarea::placeholder{
-    color: white;
-}
-.headinggtwo{
-    font-size: 35px;
-    color: white;
-}
-.checkboxes{
-    height: 50px;
-    width: 100%;
-    /* gap: 20px; */
+    flex-direction: column;
 }
 
-.check1{
-    height: 53px;
-    width: 550px;
+.heading {
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+}
+
+.infomation {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.text {
+    height: 35px;
+    width: 553px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.text::placeholder {
+    font-size: 20px;
+    color: white;
+}
+
+.email::placeholder {
+    font-size: 20px;
+    color: white;
+}
+
+.email {
+    font-size: 10px;
+    height: 35px;
+    width: 554px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.textarea {
+    height: 180px;
+    width: 1150px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.textarea::placeholder {
+    color: white;
+}
+
+.headinggtwo {
+    font-size: 25px;
+    color: white;
+}
+
+.checkboxes {
+    height: 50px;
+    width: 100%;
+}
+
+.check1 {
+    height: 25px;
+    width: 360px;
     border: 1px solid white;
     text-align: start;
     color: white;
-    padding-top: 16px;
-    font-size: 18px;
-    padding-left: 10px;
-    border-radius: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+
 }
-.label{
-    margin-left: 5px;
+
+.label {
+    margin-left: 4px;
 }
-.check2{
-     height: 53px;
-    width: 550px;
+
+.check2 {
+    height: 25px;
+    width: 360px;
     border: 1px solid white;
     text-align: start;
     color: white;
-    padding-top: 16px;
-    font-size: 18px;
-    padding-left: 10px;
-    border-radius: 10px;
-    margin-left: 585px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 400px;
+    padding: 10px;
 }
-.xox{
-    height: 20px;
-    width: 20px;
+
+.xox {
+    height: 12px;
+    width: 12px;
 }
-.checkboxpart1{
+
+.checkboxpart1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-     margin-left: 140px;
+    margin-left: 70px;
 }
-.btnn{
-     height: 80px;
-    width: 950px;
+
+.btnn {
+    height: 50px;
+    width: 600px;
     margin-top: 20px;
-    font-size: 20px;
-    border-radius: 20px;
-background: rgba(249, 194, 65, 1);
-font-size:27px;
-font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    background: rgba(249, 194, 65, 1);
+    font-weight: 600;
+    font-weight: 400;
+    border-color: transparent;
 }

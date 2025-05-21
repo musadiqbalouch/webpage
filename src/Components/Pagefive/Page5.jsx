@@ -1,49 +1,49 @@
 import React from "react";
 import "./Page5.css"
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 </style>
 
-const Page5 =() =>{
-    return(
+const Page5 = () => {
+    return (
         <div className="pagefivee">
-                <div className="pg5section1">
-                    <div>
-                     
-                        <img  className ="imgpg5"src="src/assets/Page5img1.png"/>
-                    </div>
-                    <div className="pgsection11">
-                        <h2 className="h2ofpg51">The <span className="h2color">  Importance </span> of <br />Recycling</h2>
-                        <p  className="pofpg5">It is imperative for everyone, from individuals to large organizations to <br /> rethink and 
-                            come up with new ideas and products that will improve our <br /> relationship with plastic 
-                            bottle and aluminum can disposal. If we all work <br /> together, we can reduce the number 
-                            of wasted aluminum cans and plastic <br /> bottles by reusing these waste materials to produce
-                             new products from <br /> waste. <br /> If all of us were able to recycle just a few items per day 
-                             that we would <br /> normally throw away, our participation is helping to protect the 
-                             environment, conserve natural resources, and sustain our planet for future generations.</p>
-                    </div>
-                </div >
-                <div className="bottle">
-                    <h2>Bottle <span className="h2color">Bill States</span></h2>
+            <div className="pg5section1">
+                <div>
+
+                    <img className="imgpg5" src="src/assets/Page5img1.png" />
                 </div>
-                <div className="pg5section2">
-                    <button className="usa">USA</button>
-                    <button className="canada">CANADA</button>
+                <div className="pgsection11">
+                    <h2 className="h2ofpg51">The <span className="h2color">  Importance </span> of <br />Recycling</h2>
+                    <p className="pofpg5">It is imperative for everyone, from individuals to large organizations to <br />  rethink and
+                        come up with new ideas and products that will improve our <br /> relationship with plastic
+                        bottle and aluminum can disposal. If we all work <br /> together, we can reduce the number
+                        of wasted aluminum cans and plastic <br /> bottles by reusing these waste materials to produce
+                        new products from <br />  waste. <br /> If all of us were able to recycle just a few items per day
+                        that we would <br /> normally throw away, our participation is helping to protect the
+                        environment, <br />conserve natural resources, and sustain our planet for future generations.</p>
                 </div>
-                <div className="pg5section3">
-                    <img  className="imgpg51"src="src/assets/Page5img2.png"/>
-                    <p className="pofpg51">
-                        Around 45 billion aluminum beverage cans are recycled each <br /> year in the United States, 
-                        enough to reach to the moon and <br /> back 85 times!  Amazingly, all these returned aluminu cans <br />
-                        only make up about 1 % percent of the total solid waste <br /> collected in the United States.
-                         In addition, US beverage <br />companies annually produce 100 billion plastic bottles to sell <br />
-                          their soda, water, beer, energy drinks and juices. <br />  <br />In order to help with the enormous
-                           problem of empty <br /> aluminum can and  plastic bottle disposal, ten (10) US States <br />plus Guam,
-                            have adopted legislation commonly referred as <br /> the “BOTTLE BILL LAWS”.  These Laws require
-                             all beverage <br />sretailers to give a cash refund of 5¢ or 10¢ back to customer <br /> for each
-                              empty aluminum can, and plastic bottle returned to br the retailer.
-                    </p>
-                </div>
+            </div >
+            <div className="bottle">
+                <h2>Bottle <span className="h2color">Bill States</span></h2>
+            </div>
+            <div className="pg5section2">
+                <button className="usa">USA</button>
+                <button className="canada">CANADA</button>
+            </div>
+            <div className="pg5section3">
+                <img className="imgpg51" src="src/assets/Page5img2.png" />
+                <p className="pofpg51">
+                    Around 45 billion aluminum beverage cans are recycled each <br /> year in the United States,
+                    enough to reach to the moon and <br /> back 85 times!  Amazingly, all these returned aluminu cans <br />
+                    only make up about 1 % percent of the total solid waste <br /> collected in the United States.
+                    In addition, US beverage <br />companies annually produce 100 billion plastic bottles to sell <br />
+                    their soda, water, beer, energy drinks and juices. <br />  <br />In order to help with the enormous
+                    problem of empty <br /> aluminum can and  plastic bottle disposal, ten (10) US States <br />plus Guam,
+                    have adopted legislation commonly referred as <br /> the “BOTTLE BILL LAWS”.  These Laws require
+                    all beverage <br />sretailers to give a cash refund of 5¢ or 10¢ back to customer <br /> for each
+                    empty aluminum can, and plastic bottle returned to br the retailer.
+                </p>
+            </div>
         </div>
     )
 }
