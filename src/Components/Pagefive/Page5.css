@@ -1,6 +1,6 @@
 .pagefivee {
     background-color: black;
-    height: 190vh;
+    height: 200vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -77,41 +77,54 @@
     justify-content: center;
     text-align: center;
     margin: auto;
-    height: 40px;
-    width: 250px;
-    border: 1px solid white;
+    height: 45px;
+    width: 300px;
+    border-color: transparent;
+    /* border: 1px solid white; */
     border-radius: 20px;
+    padding: 2px;
     background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+
 }
 
 .usa {
-    font-size: 15px;
-    height: 40px;
+    font-size: 22px;
+    height: 46px;
+    font-weight: 600;
     width: 150px;
     border-radius: 20px;
     background: transparent;
     border: 0cap;
     color: white;
+    cursor: pointer;
 }
 
 .canada {
-    font-size: 15px;
-    height: 40px;
+    font-size: 22px;
+    height: 46px;
+    font-weight: 600;
     width: 150px;
     border-radius: 20px;
     background: transparent;
     border: 0cap;
     color: white;
+    cursor: pointer;
 }
 
-.canada:hover {
-    font-size: 15px;
+.canada:active {
+    font-size: 22px;
+    font-weight: 600;
     background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
     color: black;
 }
 
-.usa:hover {
-    font-size: 15px;
+/* .activeButton{
+    color: green;
+} */
+
+.usa:active {
+    font-size: 22px;
+    font-weight: 600;
     background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
     color: black;
 }
@@ -137,20 +150,37 @@
     object-fit: cover;
 }
 
-.pg5section3 {
-    display: flex;
-    flex-direction: row;
+.imgpg511 {
+    height: 450px;
+    width: 500px;
+    margin-bottom: 230px;
+    object-fit: cover;
+}
+
+.pofpg511 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    height: 430px;
+    font-weight: 600;
+    width: 550px;
+    border: 1px solid white;
+    margin-bottom: 250px;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    gap: 30px;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    color: rgba(20, 20, 20, 1);
+    border-radius: 30px;
+    line-height: 1.4;
+    margin-left: 40px;
 }
 
 .pofpg51 {
-    font-size: 15px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 1);
-    height: 310px;
-    font-weight: 500;
+    height: 330px;
+    font-weight: 600;
     width: 580px;
     border: 1px solid white;
     margin-bottom: 250px;
@@ -163,4 +193,14 @@
     border-radius: 30px;
     line-height: 1.4;
     margin-left: 40px;
+}
+
+.pg5section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    gap: 30px;
 }

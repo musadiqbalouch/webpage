@@ -7,7 +7,7 @@ import "./Page4.css"
 const page4 = () => {
     return (
 
-        <div className="pagefour">
+        <div className="pagefour" id="Pagefour">
             <div className=""> <img className="imagee" src="src/assets/page4img.png" /></div>
             <div className="pgfourbox">
                 <h1 className="pg4heading">Our Mission</h1>

@@ -38,7 +38,7 @@ const data = [
 ]
 const Page3 = () => {
     return (
-        <div className="page3">
+        <div className="page3" id="Pagethree">
 
             <div className="page3heading">
                 <h1>Presenting Our <span className="h1color">Special Product</span> </h1>

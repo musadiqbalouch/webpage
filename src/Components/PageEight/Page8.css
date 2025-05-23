@@ -41,9 +41,7 @@
     text-align: start;
     display: flex;
     flex-direction: row;
-    gap: 110px;
-    /* margin: 10px; */
-    /* padding-left: -15px; */
+    gap: 100px;
 }
 
 .h2heading {
@@ -72,15 +70,18 @@
     width: 250px;
     padding: 7.5px;
     border-radius: 9px;
-    border: 0;
+    border-color: transparent;
+    border: transparent;
 }
 
 .input.entermail {
-    border: none;
+    border: transparent;
+    font-size: 30px;
 }
 
 .entermail::placeholder {
     font-size: 15px;
+    border: transparent;
     color: rgba(20, 20, 20, 1);
 }
 
@@ -104,8 +105,7 @@
 
 .subcribeptag {
     color: rgba(20, 20, 20, 1);
-
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .links {

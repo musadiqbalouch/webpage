@@ -27,7 +27,9 @@
     width: 553px;
     border: 0.5px solid white;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 25px;
+    color: white;
+    font-size: 25px;
     background-color: transparent;
     padding-left: 20px;
     padding-top: 10px;
@@ -44,7 +46,9 @@
 }
 
 .email {
-    font-size: 10px;
+    font-size: 25px;
+    color: white;
+    border-bottom: transparent;
     height: 35px;
     width: 554px;
     border-radius: 5px;
