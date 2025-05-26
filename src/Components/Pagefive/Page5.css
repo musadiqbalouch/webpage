@@ -1,6 +1,6 @@
 .pagefivee {
     background-color: black;
-    height: 200vh;
+    height: 195vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -53,7 +53,7 @@
     /* padding-right: 20px; */
     color: rgba(255, 255, 255, 1);
     line-height: 16pt;
-    margin-top: -15px;
+    margin-top: 30px;
     font-weight: 390;
 }
 
@@ -62,7 +62,7 @@
     width: 100%;
     text-align: center;
     margin-top: -50px;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     font-size: 30px;
     color: white;
     justify-content: space-between;
@@ -77,8 +77,8 @@
     justify-content: center;
     text-align: center;
     margin: auto;
-    height: 45px;
-    width: 300px;
+    height: 35px;
+    width: 200px;
     border-color: transparent;
     /* border: 1px solid white; */
     border-radius: 20px;
@@ -88,9 +88,9 @@
 }
 
 .usa {
-    font-size: 22px;
-    height: 46px;
-    font-weight: 600;
+    font-size: 18px;
+    height: 36px;
+    font-weight: 500;
     width: 150px;
     border-radius: 20px;
     background: transparent;
@@ -100,9 +100,9 @@
 }
 
 .canada {
-    font-size: 22px;
-    height: 46px;
-    font-weight: 600;
+    font-size: 18px;
+    height: 36px;
+    font-weight: 500;
     width: 150px;
     border-radius: 20px;
     background: transparent;
@@ -111,9 +111,9 @@
     cursor: pointer;
 }
 
-.canada:active {
-    font-size: 22px;
-    font-weight: 600;
+.canada.active {
+    font-size: 18px;
+    font-weight: 500;
     background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
     color: black;
 }
@@ -122,9 +122,9 @@
     color: green;
 } */
 
-.usa:active {
-    font-size: 22px;
-    font-weight: 600;
+.usa.active {
+    font-size: 18px;
+    font-weight: 500;
     background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
     color: black;
 }

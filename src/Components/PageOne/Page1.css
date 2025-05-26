@@ -1,52 +1,57 @@
 .page1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  /* font-weight: 400;
+  font-style: normal; */
 }
-.heading1{
-     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+.heading1 {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400;
+  font-style: normal; */
 }
-.page1{
-    height: 150vh;
+
+.page1 {
+  height: 140vh;
   width: 100%;
-  padding: 4px;
+  padding: 0px;
   align-items: center;
   justify-content: center;
   text-align: center;
   background: radial-gradient(61.05% 50.86% at 50% 46.33%, #F15050 0%, #850C0C 100%);
-;
-}
-.heading1{
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    font-weight: 500;
-    color: white;
-    letter-spacing: -2;
-    margin-top:140px ;
-    font-family: 'poppins';
 }
 
-.h2color{
-    color:
-  linear-gradient( rgba(255, 255, 255, 1), rgba(46, 68, 186, 1) ),
+.heading1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: -2;
+  padding-top: 130px;
+  /* margin-top: 140px; */
+  font-family: 'poppins';
 }
-.ptag{
-    font-size: 18px;
-    color: white;
-    letter-spacing: -2;
-   margin-top: -45px;
-   margin-bottom: 60px
+
+.h2color {
+  color:
+    linear-gradient(rgba(255, 255, 255, 1), rgba(46, 68, 186, 1)),
 }
-.pcolor{
-    color: rgba(249, 194, 65, 1);
+
+.ptag {
+  font-size: 18px;
+  color: white;
+  letter-spacing: -2;
+  margin-bottom: 60px
 }
-.page1img{
+
+.pcolor {
+  color: rgba(249, 194, 65, 1);
+}
+
+.page1img {
   margin-top: -50px;
-    height: 600px;
-    width: 1250px;
-    /* margin-top: -60px; */
-    object-fit: cover;
+  height: 600px;
+  width: 1250px;
+  /* margin-top: -60px; */
+  object-fit: cover;
 }

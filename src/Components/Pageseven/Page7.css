@@ -12,6 +12,7 @@
     justify-content: space-around;
     font-size: 30px;
     color: white;
+    padding: 30px;
 }
 
 .infomation {
@@ -23,8 +24,8 @@
 }
 
 .text {
-    height: 35px;
-    width: 553px;
+    height: 45px;
+    width: 560px;
     border: 0.5px solid white;
     border-radius: 5px;
     font-size: 25px;
@@ -32,7 +33,7 @@
     font-size: 25px;
     background-color: transparent;
     padding-left: 20px;
-    padding-top: 10px;
+    /* padding-top: 5px; */
 }
 
 .text::placeholder {
@@ -49,18 +50,18 @@
     font-size: 25px;
     color: white;
     border-bottom: transparent;
-    height: 35px;
-    width: 554px;
+    height: 45px;
+    width: 560px;
     border-radius: 5px;
     background-color: transparent;
     border: 0.5px solid white;
     padding-left: 20px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .textarea {
     height: 180px;
-    width: 1150px;
+    width: 1170px;
     border-radius: 5px;
     background-color: transparent;
     color: white;
@@ -77,6 +78,7 @@
 .headinggtwo {
     font-size: 25px;
     color: white;
+    padding: 20px;
 }
 
 .checkboxes {
@@ -86,7 +88,7 @@
 
 .check1 {
     height: 25px;
-    width: 360px;
+    width: 364px;
     border: 1px solid white;
     text-align: start;
     color: white;
@@ -96,19 +98,23 @@
 
 }
 
+.gap {
+    margin-left: 16px;
+}
+
 .label {
     margin-left: 4px;
 }
 
 .check2 {
     height: 25px;
-    width: 360px;
+    width: 364px;
     border: 1px solid white;
     text-align: start;
     color: white;
     font-size: 12px;
     border-radius: 5px;
-    margin-left: 400px;
+    margin-left: 405px;
     padding: 10px;
 }
 
@@ -129,10 +135,10 @@
     height: 50px;
     width: 600px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 10px;
     background: rgba(249, 194, 65, 1);
     font-weight: 600;
-    font-weight: 400;
+    margin-top: 40px;
     border-color: transparent;
 }

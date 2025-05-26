@@ -3,7 +3,7 @@
   /* font-weight: 100; */
   font-style: normal;
   background: radial-gradient(74.99% 52.33% at 50% 47.67%, #EE535D 0%, #850C0C 100%);
-  height: 110vh;
+  height: 120vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  /* margin: 120px; */
   opacity: 0.9;
 }
 
@@ -26,7 +25,7 @@
   justify-content: center;
   text-align: center;
   font-size: 25px;
-  /* padding: 35px; */
+  padding: 35px;
   color: white;
   line-height: 75.44px;
   font-weight: 400px;

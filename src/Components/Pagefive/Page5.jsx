@@ -6,12 +6,6 @@ import "./Page5.css"
 
 const Page5 = () => {
     const [selectCountry, setSelectCountry] = useState("usa")
-
-    const [isActive, setIsActive] = useState(false);
-
-    const handleClick = () => {
-        setIsActive(!isActive);
-    };
     return (
         <div className="pagefivee">
             <div className="pg5section1">
@@ -34,8 +28,10 @@ const Page5 = () => {
                 <h2>Bottle <span className="h2color">Bill States</span></h2>
             </div>
             <div className="pg5section2">
-                <button className="usa" onClick={() => setSelectCountry("usa")}>USA</button>
-                <button className="canada" onClick={() => setSelectCountry("canada")}>CANADA</button>
+                <button className={`usa ${selectCountry === "usa" ? "active" : ""}`}
+                    onClick={() => setSelectCountry("usa")}>USA</button>
+                <button className={`canada ${selectCountry === "canada" ? "active" : ""}`}
+                    onClick={() => setSelectCountry("canada")}>CANADA</button>
             </div>
 
             <div className="pg5section3" >

@@ -5,10 +5,12 @@
 }
 
 .page8 {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-color: white;
 }
+
+
 
 .page8imgg {
     display: flex;
@@ -36,6 +38,7 @@
 }
 
 .footer {
+    height: 350px;
     align-items: center;
     justify-content: center;
     text-align: start;
@@ -47,20 +50,14 @@
 .h2heading {
     font-size: 25px;
     color: rgba(181, 37, 46, 1);
-    margin-bottom: -0px;
 }
 
-.h222heading {
-    font-size: 25px;
-    color: rgba(181, 37, 46, 1);
-    margin-bottom: -5px;
-    margin-top: 55px;
-}
+
 
 .subbtn {
     height: 40px;
     width: 400px;
-    border: 2px solid rgba(181, 37, 46, 1);
+    border: 1px solid black;
     ;
     border-radius: 10px;
 }
@@ -98,14 +95,20 @@
 }
 
 .h22heading {
-    margin-top: 20px;
     font-size: 12px;
     font-weight: 400;
 }
 
+.h222heading {
+    font-size: 25px;
+    color: rgba(181, 37, 46, 1);
+}
+
 .subcribeptag {
     color: rgba(20, 20, 20, 1);
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .links {
@@ -123,15 +126,15 @@
 
 .footerr {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .lasttitle {
-    height: 40px;
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
-    padding-top: 1px;
+    padding: 10px;
 }
 
 .cc {

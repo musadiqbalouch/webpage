@@ -1,5 +1,5 @@
 .header {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     /* font-weight: 300; */
     /* font-style: normal; */
 }
@@ -27,18 +27,18 @@
     height: 40px;
     width: 800px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     border: 1px solid white;
     padding: 10px 5px 10px 5px;
-    gap: 100px;
+    gap: 30px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.23);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     cursor: pointer;
+    font-weight: 400;
 
 }
 
@@ -101,16 +101,16 @@
     justify-content: center;
 }
 
-.header2img {
+.icon {
     height: 30px;
     width: 30px;
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.header2img:hover {
+.icon:hover {
     color: rgba(181, 37, 46, 1);
     background-color: white;
     border: 1px solid white;
@@ -137,9 +137,26 @@
     padding: 15px;
     border-radius: 10px;
     cursor: pointer;
+    font-weight: 400;
 }
 
 .headerlink {
     text-decoration: none;
     color: white;
+}
+
+.home {
+    font-weight: 400;
+}
+
+.about {
+    font-weight: 400;
+}
+
+.product {
+    font-weight: 400;
+}
+
+.order {
+    font-weight: 400;
 }

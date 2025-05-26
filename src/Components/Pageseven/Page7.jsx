@@ -31,7 +31,7 @@ const page7 = () => {
                 </div>
                 <div className="check1">
                     <input className="xox" type="checkbox" />
-                    <label className="label">TRASH-IT BAGS 13 GAL - TALL KITCHEN DRAWSTRING TRASH BAGS</label>
+                    <label className="label">TRASH-IT BAGS 13 GAL - TALL KITCHEN DRAWSTRING <span className="gap">TRASH BAGS </span></label>
                 </div>
                 <div className="check1">
                     <input className="xox" type="checkbox" />

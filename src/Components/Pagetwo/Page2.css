@@ -6,7 +6,7 @@
 
 
 .backimgpg2 {
-    height: 110vh;
+    height: 120vh;
     width: 100%;
     background-image: url("src/assets/backimage.jpg");
     background-size: cover;
@@ -65,7 +65,7 @@
     font-weight: 450;
     color: rgba(20, 20, 20, 1);
     margin-bottom: -0px;
-    margin-top: -15px;
+    margin-top: 5px;
 }
 
 .heading3 {
