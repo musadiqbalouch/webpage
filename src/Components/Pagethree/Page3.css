@@ -1,6 +1,5 @@
 .page3 {
   font-family: "Poppins", sans-serif;
-  /* font-weight: 100; */
   font-style: normal;
   background: radial-gradient(74.99% 52.33% at 50% 47.67%, #EE535D 0%, #850C0C 100%);
   height: 120vh;
@@ -8,7 +7,6 @@
   display: flex;
   flex-direction: column;
   border-radius: 25px;
-  /* margin:30px; */
 }
 
 .fivecards {

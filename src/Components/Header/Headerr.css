@@ -15,6 +15,16 @@
     position: fixed;
 }
 
+.info a.active {
+    color: rgba(181, 37, 46, 1);
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    transition: 0.55s;
+    font-weight: 400;
+}
+
 .img1 {
     height: 200px;
     width: 200px;
@@ -42,7 +52,7 @@
 
 }
 
-.home:hover {
+/* .home:hover {
     color: rgba(181, 37, 46, 1);
     background-color: white;
     border: 1px solid white;
@@ -90,7 +100,7 @@
     border-radius: 10px;
     transition: 0.55s;
     font-weight: 400;
-}
+} */
 
 .contact {
     display: flex;

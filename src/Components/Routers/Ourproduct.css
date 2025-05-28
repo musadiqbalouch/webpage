@@ -1,0 +1,38 @@
+.ourproduct {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background: radial-gradient(74.99% 52.33% at 50% 47.67%, #EE535D 0%, #850C0C 100%);
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.fivecardsss {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    opacity: 0.9;
+}
+
+.page3headingss {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    color: white;
+    line-height: 75.44px;
+    font-weight: 400px;
+}
+
+.h1color {
+    background: linear-gradient(180deg, #FFFFFF 0%, #2E44BA 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
