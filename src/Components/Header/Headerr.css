@@ -19,16 +19,15 @@
     color: rgba(181, 37, 46, 1);
     background-color: white;
     border: 1px solid white;
-    padding: 5px 30px 5px 30px;
+    padding-top: 5px;
     border-radius: 10px;
-    transition: 0.55s;
+    transition: 0.30s;
     font-weight: 400;
 }
 
 .img1 {
     height: 200px;
     width: 200px;
-    /* padding-bottom: 45px; */
     padding-top: 35px;
 }
 
@@ -42,7 +41,7 @@
     flex-direction: row;
     border: 1px solid white;
     padding: 10px 5px 10px 5px;
-    gap: 30px;
+    gap: 20px;
     border-radius: 20px;
     font-size: 12px;
     background-color: rgba(0, 0, 0, 0.23);
@@ -51,56 +50,6 @@
     font-weight: 400;
 
 }
-
-/* .home:hover {
-    color: rgba(181, 37, 46, 1);
-    background-color: white;
-    border: 1px solid white;
-    padding: 5px 30px 5px 30px;
-    border-radius: 10px;
-    transition: 0.55s;
-    font-weight: 400;
-}
-
-.about:hover {
-    color: rgba(181, 37, 46, 1);
-    background-color: white;
-    border: 1px solid white;
-    padding: 5px 30px 5px 30px;
-    border-radius: 10px;
-    transition: 0.55s;
-    font-weight: 400;
-}
-
-.product :hover {
-    color: rgba(181, 37, 46, 1);
-    background-color: white;
-    border: 1px solid white;
-    padding: 5px 30px 5px 30px;
-    border-radius: 5px;
-    transition: 0.55s;
-    font-weight: 400;
-}
-
-.product:hover {
-    color: rgba(181, 37, 46, 1);
-    background-color: white;
-    border: 1px solid white;
-    padding: 5px 30px 5px 30px;
-    border-radius: 10px;
-    transition: 0.55s;
-    font-weight: 400;
-}
-
-.order:hover {
-    color: rgba(181, 37, 46, 1);
-    background-color: white;
-    border: 1px solid white;
-    padding: 5px 30px 5px 30px;
-    border-radius: 10px;
-    transition: 0.55s;
-    font-weight: 400;
-} */
 
 .contact {
     display: flex;
@@ -157,16 +106,50 @@
 
 .home {
     font-weight: 400;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
 }
 
 .about {
     font-weight: 400;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
 }
 
 .product {
     font-weight: 400;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
 }
 
 .order {
     font-weight: 400;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
+}
+
+.productone {
+    font-weight: 400;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding: 2px;
 }

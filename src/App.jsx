@@ -6,6 +6,7 @@ import Ourproduct from "./Components/Routers/Ourproduct";
 import PreOrder from "./Components/Routers/PreOrder"
 import Headerr from './Components/Header/Headerr'
 import Homee from './Components/Homee'
+import Product1 from './Components/Productone/Product1';
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/ourproduct' element={<Ourproduct />} />
           <Route path='/preorders' element={<PreOrder />} />
+          <Route path='/productone' element={< Product1 />} />
         </Routes>
       </>
     </div>

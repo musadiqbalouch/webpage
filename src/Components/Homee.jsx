@@ -7,7 +7,6 @@ import Page5 from './Pagefive/Page5';
 import Page6 from './Pagesix/Page6';
 import Page7 from './Pageseven/Page7';
 import Page8 from './PageEight/Page8';
-import Product1 from './Productone/Product1';
 
 function Homee() {
 
@@ -21,7 +20,6 @@ function Homee() {
             <Page6 />
             <Page7 />
             <Page8 />
-            <Product1 />
         </div>
     )
 }
