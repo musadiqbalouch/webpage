@@ -1,5 +1,6 @@
 import React from "react";
-import "./page7.css"
+import "./Page7.css"
+// import "../Pageseven/page7.css"
 
 const page7 = () => {
     return (
