@@ -17,7 +17,6 @@ function Headerr() {
         <NavLink to={"/about"} className="headerlink" > <h2 className="about">About Us</h2> </NavLink>
         <NavLink to={"/ourproduct"} className="headerlink" > <h2 className="product">Our Product</h2> </NavLink>
         <NavLink to={"/preorders"} className="headerlink" >  <h2 className="order">Pre-Order</h2> </NavLink>
-        <NavLink to={"/productone"} className="headerlink"> <h2 className="productone"> Product-One </h2></NavLink>
       </div>
       <div className="contact" >
         < IoIosContact className="icon" />

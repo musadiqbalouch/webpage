@@ -3,20 +3,14 @@
     width: 100%;
     background-image: url(../../assets/Page6backimg.jpg);
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
-    /* padding-right: 41px;
-    margin-left: -40px;
-    margin-right: -40px; */
 }
 
 .pagesixheading {
     height: 150px;
-    /* width: 900; */
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* margin: 20px; */
     padding-top: 40px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -87,7 +81,6 @@
     height: 330px;
     width: 900px;
     margin-bottom: 20px;
-    /* margin-right: 20px; */
     margin-left: -20px;
     border-left: 20px solid whitesmoke;
     border-right: 20px solid whitesmoke;

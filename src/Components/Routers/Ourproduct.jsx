@@ -8,47 +8,52 @@ import imag5 from "../../assets/Card5.png"
 import "./Ourproduct.css"
 
 
-const data = [
+export const Products = [
     {
+        id: 1,
         image: imag1,
         title: "BAG-IT",
         detail: "Insulated and re-usable environment friendly grocery shopping bags.",
         button: "View Button"
     }, {
+        id: 2,
         image: imag2,
         title: "CAN-IT",
         detail: "Insulated and re-usable environment friendly grocery shopping bags.",
-        button: "View button"
+        button: "View Button"
     }, {
+        id: 3,
         image: imag3,
         title: "BOTTLE-IT",
         detail: "Insulated and re-usable environment friendly grocery shopping bags.",
-        button: "button"
+        button: "View Button"
     }, {
+        id: 4,
         image: imag4,
         title: "TRASH-IT",
         detail: "Insulated and re-usable environment friendly grocery shopping bags.",
-        button: "button"
+        button: "View Button"
     }, {
+        id: 5,
         image: imag5,
         title: "TAKE-IT",
         detail: "Insulated and re-usable environment friendly grocery shopping bags.",
-        button: "button"
+        button: "View Button"
     }
 ]
 const Ourproduct = () => {
     return (
-        <div className="ourproduct" id="Pagethree">
+        <div className="page3" id="Pagethree">
 
             <div className="page3headingss">
                 <h1>Presenting Our <span className="h1color">Special Product</span> </h1>
             </div>
             <div className="fivecardsss">
-                <Content image={imag1} title={"BAG-IT"} detail={"Insulated and re-usable environment friendly grocery."} button={"View button"} />
-                <Content image={imag2} title={"CAN-IT"} detail={"Insulated and re-usable environment friendly grocery."} button={"View button"} />
-                <Content image={imag3} title={"BOTTLE-IT"} detail={"Insulated and re-usable environment friendly grocery."} button={"View button"} />
-                <Content image={imag4} title={"TRASH-IT"} detail={"Insulated and re-usable environment friendly grocery."} button={"View button"} />
-                <Content image={imag5} title={"TAKE-IT"} detail={"Insulated and re-usable environment friendly grocery ."} button={"View button"} />
+                {
+                    Products.map((product, index,) => (
+                        <Content key={index} product={product} image={product.image} title={product.title} detail={product.detail} button={product.button} />
+                    ))
+                }
             </div>
         </div>
     )

@@ -11,6 +11,11 @@
     gap: -10px;
 }
 
+.xoxotitle {
+    color: white;
+    font-size: 40px;
+}
+
 .productsection1 {
     height: 80vh;
     width: 50%;
@@ -63,7 +68,7 @@
     margin-bottom: 100px;
 }
 
-.Productoneimage1 {
+.Productoneimage1{
     height: 180px;
     width: 200px;
     object-fit: cover;

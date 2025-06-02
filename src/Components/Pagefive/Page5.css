@@ -50,7 +50,6 @@
 
 .pofpg5 {
     font-size: 16px;
-    /* padding-right: 20px; */
     color: rgba(255, 255, 255, 1);
     line-height: 16pt;
     margin-top: 30px;
@@ -70,7 +69,6 @@
 }
 
 .pg5section2 {
-    /* margin: 100px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,7 +78,6 @@
     height: 35px;
     width: 200px;
     border-color: transparent;
-    /* border: 1px solid white; */
     border-radius: 20px;
     padding: 2px;
     background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
@@ -117,11 +114,6 @@
     background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
     color: black;
 }
-
-/* .activeButton{
-    color: green;
-} */
-
 .usa.active {
     font-size: 18px;
     font-weight: 500;
@@ -139,7 +131,6 @@
 .pg5section3 {
     display: flex;
     flex-direction: row;
-    /* margin:50px; */
     padding-top: 15px;
 }
 

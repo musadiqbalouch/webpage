@@ -7,8 +7,7 @@ import imag3 from "../../assets/Card3.png"
 import imag4 from "../../assets/Card4.png"
 import imag5 from "../../assets/Card5.png"
 
-
-const Products = [
+export const Products = [
     {
         id: 1,
         image: imag1,
@@ -41,6 +40,7 @@ const Products = [
         button: "View Button"
     }
 ]
+
 const Page3 = () => {
     return (
         <div className="page3" id="Pagethree">
