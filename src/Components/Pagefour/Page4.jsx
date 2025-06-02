@@ -5,7 +5,7 @@ const page4 = () => {
     return (
 
         <div className="pagefour" id="Pagefour">
-            <div className=""> <img className="imagee" src="src/assets/page4img.png" /></div>
+            <div className=""> <img className="imagee" src="public/page4img.png" /></div>
             <div className="pgfourbox">
                 <h1 className="pg4heading">Our Mission</h1>
                 <p className="ptagofpg4">At CAN-IT & BOTTLE-IT CORPORATION, LLC, we are dedicated to <br /> reducing plastic waste by recycling empty
