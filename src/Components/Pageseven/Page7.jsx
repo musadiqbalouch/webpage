@@ -1,6 +1,6 @@
 import React from "react";
 import "./Page7.css"
-// import "../Pageseven/page7.css"
+import "../Pageseven/Page7.css"
 
 const page7 = () => {
     return (
