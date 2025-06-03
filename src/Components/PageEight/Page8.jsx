@@ -1,5 +1,5 @@
 import React from "react";
-import "./page8.css"
+import "../PageEight/Page8.css"
 
 const page8 = () => {
     return (
