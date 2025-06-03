@@ -2,15 +2,13 @@ import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import "./Headerr.css"
 import { IoIosContact } from "react-icons/io";
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
+import img from "../.././assets/headerimg.png"
 
 function Headerr() {
   return (
     <div className="header">
       <div>
-        <img className="img1" src="./src/assets/headerimg.png" />
+        <img className="img1" src={img} />
       </div>
       <div className="info">
         <NavLink to="/" className="headerlink" ><h2 className="home"> Home</h2> </NavLink>

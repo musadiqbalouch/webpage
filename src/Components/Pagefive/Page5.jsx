@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./Page5.css"
+import img from "../.././assets/Page5img1.png"
+import img1 from "../.././assets/Page5img2.png"
+import img2 from "../.././assets/Canada.webp"
+
 
 
 const Page5 = () => {
@@ -9,7 +13,7 @@ const Page5 = () => {
             <div className="pg5section1">
                 <div>
 
-                    <img className="imgpg5" src="src/assets/Page5img1.png" />
+                    <img className="imgpg5" src={img} />
                 </div>
                 <div className="pgsection11">
                     <h2 className="h2ofpg51">The <span className="h2color">  Importance </span> of <br />Recycling</h2>
@@ -35,7 +39,7 @@ const Page5 = () => {
             <div className="pg5section3" >
                 {selectCountry === "usa" ? (
                     <>
-                        <img className="imgpg51" src="src/assets/Page5img2.png" />
+                        <img className="imgpg51" src={img1} />
                         <p className="pofpg51">
                             Around 45 billion aluminum beverage cans are recycled each <br /> year in the United States,
                             enough to reach to the moon and <br /> back 85 times!  Amazingly, all these returned aluminu cans <br />
@@ -50,7 +54,7 @@ const Page5 = () => {
                     </>
                 ) : selectCountry === "canada" ? (
                     <>
-                        <img className="imgpg511" src="src/assets/Canada.webp" />
+                        <img className="imgpg511" src={img2} />
                         <p className="pofpg511">
                             Canadian provinces and territories with a deposit- <br />return program recycle over three quarters
                             of their <br /> returned plastic bottles and aluminum cans. An <br /> estimated 1 billion cans and bottles

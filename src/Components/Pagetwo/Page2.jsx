@@ -1,5 +1,6 @@
 import React from "react";
 import "./Page2.css"
+import img from "../.././assets/page2img.jpg"
 
 const Page2 = () => {
     return (
@@ -19,7 +20,7 @@ const Page2 = () => {
                         environment by <br />recovering, recycling, and reusing the waste we create.</p>
                 </div>
                 <div className="imgp2">
-                    <img className="imgpg2" src="./src/assets/page2img.jpg" />
+                    <img className="imgpg2" src={img} />
                 </div>
             </div>
         </div>

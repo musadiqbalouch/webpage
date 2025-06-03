@@ -1,11 +1,12 @@
 import React from "react";
 import "../PageEight/Page8.css"
+import img1 from "../.././assets/Page8.png"
 
 const page8 = () => {
     return (
         <div className="page8">
             <div className="page8imgg">
-                <img className="page8img" src="src/assets/Page8.png" />
+                <img className="page8img" src={img1} />
             </div>
             <div className="page8heading">
                 <p>The <span className="spancolor">CAN-IT & BOTTLE-IT CORPORATION </span> supports having National Regulatory Laws <br /> and measures

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Page6.css"
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import video from "../.././assets/Page6video.mp4"
+import video1 from "../.././assets/Can-It & Bottle-It 2023.mp4"
 
 const Page6 = () => {
 
@@ -13,13 +15,13 @@ const Page6 = () => {
                 {selectArow === "arrowleft" ? (
                     <>
                         <img className="imgleft" src="src/assets/Left.png" />
-                        <video controls autoPlay muted className="video1" src="src/assets/Page6video.mp4"></video>
+                        <video controls autoPlay muted className="video1" src={video}></video>
                         <img className="imgright" src="src/assets/Right.png" />
                     </>
                 ) : selectArow === "arrowright" ? (
                     <>
                         <img className="img2left" src="src/assets/trashit.png" />
-                        <video controls autoPlay muted className="video2" src="src/assets/Can-It & Bottle-It 2023.mp4"></video>
+                        <video controls autoPlay muted className="video2" src={video1}></video>
                         <img className="img2right" src="src/assets/Right.png" />
                     </>
                 ) : null}
