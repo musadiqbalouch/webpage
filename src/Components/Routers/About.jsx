@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../.././assets/page2img.jpg"
 
 const About = () => {
     return (
@@ -19,7 +19,7 @@ const About = () => {
                         environment by <br />recovering, recycling, and reusing the waste we create.</p>
                 </div>
                 <div className="imgp2">
-                    <img className="imgpg2" src="./src/assets/page2img.jpg" />
+                    <img className="imgpg2" src={img} />
                 </div>
             </div>
         </div>
