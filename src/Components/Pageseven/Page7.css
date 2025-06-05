@@ -140,3 +140,619 @@
     margin-top: 40px;
     border-color: transparent;
 }
+/* for medium laptop */
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .page7{
+    height: 120vh;
+    width: 100%;
+    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .heading{
+     align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    color: white;
+    padding: 25px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .infomation{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    gap: 25px;
+    font-size: 23px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .text{
+    height: 40px;
+    width: 440px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    padding-left: 15px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .email{
+      font-size: 23px;
+    color: white;
+    border-bottom: transparent;
+    height: 40px;
+    width: 440px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding-left: 15px;
+    }
+}
+ @media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .textarea{
+    height: 160px;
+    width: 930px;
+    margin-left: 32px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .headinggtwo{
+     font-size: 23px;
+    color: white;
+    padding: 15px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .checkboxes{
+    height: 45px;
+    width: 100%;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .check1{
+     height: 23px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .xox{
+     height: 11px;
+    width: 11px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .label{
+     margin-left: 3px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .check2{
+     height: 23px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-left: 325px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .btnn{
+      height: 40px;
+    width: 500px;
+    margin-top: 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: rgba(249, 194, 65, 1);
+    font-weight: 600;
+    margin-top: 35px;
+    border-color: transparent;
+    }
+}
+ @media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .checkboxpart1{
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 60px;
+    }
+}
+    
+
+    
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .gap{
+      margin-left: 0px;
+    }
+} 
+
+/* for tablets */
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .page7{
+    height: 125vh;
+    width: 100%;
+    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .heading{
+     align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    color: white;
+    padding: 25px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .infomation{
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    gap: 20px;
+    font-size: 23px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .text{
+    height: 40px;
+    width: 320px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    padding-left: 15px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .email{
+      font-size: 23px;
+    color: white;
+    border-bottom: transparent;
+    height: 40px;
+    width: 320px;
+    /* margin-right: 10px; */
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding-left: 15px;
+    }
+}
+ @media screen and (min-width:  425px) and (max-width: 768px) { 
+    .textarea{
+    height: 160px;
+    width: 680px;
+    /* margin-left: 10px; */
+    margin-right: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .headinggtwo{
+     font-size: 23px;
+    color: white;
+    padding: 15px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .checkboxes{
+    height: 45px;
+    width: 100%;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .check1{
+     height: 20px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .xox{
+     height: 11px;
+    width: 11px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .label{
+     margin-left: 3px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .check2{
+     height: 20px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-left: 170px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .btnn{
+      height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    background: rgba(249, 194, 65, 1);
+    font-weight: 600;
+    margin-top: 35px;
+    border-color: transparent;
+    }
+}
+ @media screen and (min-width:  425px) and (max-width: 768px) { 
+    .checkboxpart1{
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 60px;
+    }
+}
+/* for large mobiles  */
+
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .page7{
+    height: 160vh;
+    width: 100%;
+    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .heading{
+     align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .infomation{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    gap: 10px;
+    font-size: 23px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .text{
+    height: 25px;
+    width: 151px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    padding-left: 10px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .email{
+      font-size: 20px;
+    color: white;
+    border-bottom: transparent;
+    height: 25px;
+    width: 151px;
+    /* margin-right: 10px; */
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+    .textarea{
+    height: 160px;
+    width: 320px;
+    /* margin-left: 10px; */
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .headinggtwo{
+     font-size: 20px;
+    color: white;
+    padding: 15px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .checkboxes{
+    height: 45px;
+    width: 100%;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .check1{
+     height: 20px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .xox{
+     height: 11px;
+    width: 11px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .label{
+     margin-left: 3px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .gap{
+      margin-left: 0px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .check2{
+     height: 20px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-left: 0px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .btnn{
+      height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    background: rgba(249, 194, 65, 1);
+    font-weight: 600;
+    margin-top: 35px;
+    border-color: transparent;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+    .checkboxpart1{
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 60px;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+ .text::placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+   
+.email::placeholder {
+    font-size: 13px;
+    color: white;
+}
+}
+
+/* for small mobiles */
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .page7{
+    height: 160vh;
+    width: 100%;
+    background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .heading{
+     align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .infomation{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    gap: 10px;
+    font-size: 23px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .text{
+    height: 25px;
+    width: 150px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-size: 23px;
+    color: white;
+    background-color: transparent;
+    padding-left: 10px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .email{
+      font-size: 20px;
+    color: white;
+    border-bottom: transparent;
+    height: 25px;
+    width: 150px;
+    /* margin-right: 10px; */
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+    .textarea{
+    height: 160px;
+    width: 320px;
+    /* margin-left: 10px; */
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .headinggtwo{
+     font-size: 20px;
+    color: white;
+    padding: 15px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .checkboxes{
+    height: 45px;
+    width: 100%;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .check1{
+     height: 20px;
+     margin-right: 50px;
+    width: 280px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .xox{
+     height: 11px;
+    width: 11px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .label{
+     margin-left: 3px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .gap{
+      margin-left: 0px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .check2{
+     height: 20px;
+    width: 280px;
+    margin-right: 50px;
+    border: 1px solid white;
+    text-align: start;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-left: 0px;
+    padding: 8px;
+    }
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .btnn{
+      height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    background: rgba(249, 194, 65, 1);
+    font-weight: 600;
+    margin-top: 20px;
+    border-color: transparent;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+    .checkboxpart1{
+       display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 60px;
+    }
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+ .text::placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+   
+.email::placeholder {
+    font-size: 13px;
+    color: white;
+}
+}
+

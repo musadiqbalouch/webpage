@@ -32,7 +32,7 @@ const page8 = () => {
                     <a className="link" href="">Commercial videos</a>
                 </div>
                 <div className="links">
-                    <h2 className="h2heading">Product</h2>
+                    <h2 className="h2headinggg">Product</h2>
                     <a className="link" href="">Can-It</a>
                     <a className="link" href="">bottle-it</a>
                     <a className="link" href="">bag-it</a>
