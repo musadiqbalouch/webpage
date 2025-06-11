@@ -3,10 +3,22 @@ import { NavLink } from 'react-router-dom';
 import "./Headerr.css"
 import { IoIosContact } from "react-icons/io";
 import img from "../.././assets/headerimg.png"
+import { RxHamburgerMenu } from "react-icons/rx";
+
 
 function Headerr() {
+
+  const [menuOpen, setMenuOpen] = useState("false")
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="header">
+      <div className="menu">
+        <RxHamburgerMenu className={`ham`} />
+      </div>
       <div>
         <img className="img1" src={img} />
       </div>

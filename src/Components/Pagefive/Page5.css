@@ -191,7 +191,7 @@
 @media screen and (min-width:  768px) and (max-width: 1024px) { 
     .pagefivee{
           background-color: black;
-    height: 195vh;
+    height: 155vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -636,6 +636,65 @@
     font-weight: 100;
     }
 } 
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+  .pg5section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    width: 140px;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+
+}
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+   .usa {
+    font-size: 14px;
+    height: 30px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+}
+} 
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+ .canada {
+    font-size: 14px;
+    height: 30px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+}
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+.canada.active {
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+.usa.active {
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
 /* for small mobiles */
 @media screen and (min-width:  320px) and (max-width: 375px) { 
     .pagefivee{
@@ -783,41 +842,62 @@
     }
 } 
  @media screen and (min-width:  320px) and (max-width: 375px) { 
-    .bottle{
-           height: 50px;
-    width: 100%;
+  .pg5section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-top: -50px;
-    margin-bottom: 25px;
-    font-size: 17px;
+    margin: auto;
+    height: 20px;
+    width: 120px;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+
+}
+}
+ @media screen and (min-width:  320px) and (max-width: 375px) { 
+   .usa {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
     color: white;
-    justify-content: space-between;
-    font-weight: 100;
-    }
+    cursor: pointer;
+}
 } 
-    /*
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefour{
-          
-    }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefour{
-          
-    }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefour{
-          
-    }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefour{
-          
-    }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefour{
-          
-    }
-}  */
+ @media screen and (min-width:  320px) and (max-width: 375px) { 
+ .canada {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+}
+}
+ @media screen and (min-width:  320px) and (max-width: 375px) { 
+.canada.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
+ @media screen and (min-width:  320px) and (max-width: 375px) { 
+.usa.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
+

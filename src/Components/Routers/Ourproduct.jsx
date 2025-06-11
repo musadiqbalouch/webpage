@@ -6,6 +6,7 @@ import imag3 from "../../assets/Card3.png"
 import imag4 from "../../assets/Card4.png"
 import imag5 from "../../assets/Card5.png"
 import "./Ourproduct.css"
+import "./ProductCards.css"
 
 
 export const Products = [

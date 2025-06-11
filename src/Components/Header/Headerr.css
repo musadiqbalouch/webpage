@@ -13,6 +13,12 @@
     justify-content: space-around;
     color: white;
     position: fixed;
+    /* background-color: black; */
+}
+.ham{
+    height: 20px;
+    width: 20px;
+    display: none;
 }
 
 .info a.active {
@@ -343,8 +349,8 @@
 } 
 @media screen and  (min-width:  425px) and (max-width: 768px) { 
     .img1{
-         height: 160px;
-    width: 160px;
+         height: 150px;
+    width: 140px;
     padding-top: 30px;
     }
 } 
@@ -352,7 +358,8 @@
     .info{
          color: rgba(255, 255, 255, 1);
     height: 30px;
-    width: 420px;
+    width: 410px;
+    margin-left: -10px;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -372,10 +379,11 @@
     .contact{
          display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 6px;
     font-size: 8px;
     align-items: center;
     justify-content: center;
+    margin-left: -10px;
     }
 } 
 @media screen and  (min-width:  425px) and (max-width: 768px) { 
@@ -413,7 +421,7 @@
     .cont{
          height: 18px;
     border: 1px solid white;
-    width: 75px;
+    width: 67px;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
@@ -480,3 +488,33 @@
     padding: 2px;
     }
 }
+/* for large mobile */
+@media screen and  (min-width:  375px) and (max-width: 425px){ 
+    .ham{
+        display: block;
+    }
+}
+@media screen and  (min-width:  375px) and (max-width: 425px){ 
+    .img1{
+        display: none;
+    }
+}
+@media screen and  (min-width:  375px) and (max-width: 425px){ 
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+}
+@media screen and  (min-width:  375px) and (max-width: 425px){ 
+    .icon{
+        display: none;
+    }
+}
+@media screen and  (min-width:  375px) and (max-width: 425px){ 
+    .cont{
+        display: none;
+    }
+}
+

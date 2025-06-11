@@ -143,7 +143,7 @@
 /* for medium laptop */
 @media screen and (min-width:  768px) and (max-width: 1024px) { 
     .page7{
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, #EE535D 0%, #850C0C 115.08%);
     text-align: center;
@@ -469,6 +469,7 @@
     color: white;
     background-color: transparent;
     padding-left: 10px;
+    margin-left: 24px;
     }
 }
 @media screen and (min-width:  375px) and (max-width: 425px) { 
@@ -621,7 +622,7 @@
     font-size: 23px;
     }
 }
-@media screen and (min-width:  375px) and (max-width: 425px) { 
+@media screen and (min-width:  320px) and (max-width: 375px) { 
     .text{
     height: 25px;
     width: 150px;
@@ -631,6 +632,7 @@
     color: white;
     background-color: transparent;
     padding-left: 10px;
+     margin-left: 0px;
     }
 }
 @media screen and (min-width:  375px) and (max-width: 425px) { 
