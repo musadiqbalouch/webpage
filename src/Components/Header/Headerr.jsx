@@ -8,16 +8,17 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function Headerr() {
 
-  const [isOpen, setIsOpen] = useState(false)
-  function demo() {
-    setIsOpen(true)
-  }
-  console.log(isOpen)
+  // const [isOpen, setIsOpen] = useState(false)
+  // function demo() {
+  //   setIsOpen(true)
+  // }
+  // console.log(isOpen)
   return (
     <div className="header">
-      <div onClick={demo} className="ham">
+      {/* <div onClick={demo} className="ham">
         <RxHamburgerMenu />
-      </div>
+      </div > */}
+
       <div>
         <img className="img1" src={img} />
       </div>
@@ -27,12 +28,21 @@ function Headerr() {
         <NavLink to={"/ourproduct"} className="headerlink" > <h2 className="product">Our Product</h2> </NavLink>
         <NavLink to={"/preorders"} className="headerlink" >  <h2 className="order">Pre-Order</h2> </NavLink>
       </div>
+      {/* <div className="info"></div>
+      {isOpen === "info" ? (
+        <>
+          <NavLink to="/" className="headerlink" ><h2 className="home"> Home</h2> </NavLink>
+          <NavLink to={"/about"} className="headerlink" > <h2 className="about">About Us</h2> </NavLink>
+          <NavLink to={"/ourproduct"} className="headerlink" > <h2 className="product">Our Product</h2> </NavLink>
+          <NavLink to={"/preorders"} className="headerlink" >  <h2 className="order">Pre-Order</h2> </NavLink>
+        </>
+      ) : null} */}
       <div className="contact" >
         < IoIosContact className="icon" />
         <h2 className="cont">Contact Us</h2>
       </div>
 
-    </div>
+    </div >
   )
 }
 export default Headerr
