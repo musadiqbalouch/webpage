@@ -8,16 +8,15 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function Headerr() {
 
-  const [menuOpen, setMenuOpen] = useState("false")
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
+  const [isOpen, setIsOpen] = useState(false)
+  function demo() {
+    setIsOpen(true)
+  }
+  console.log(isOpen)
   return (
     <div className="header">
-      <div className="menu">
-        <RxHamburgerMenu className={`ham`} />
+      <div onClick={demo} className="ham">
+        <RxHamburgerMenu />
       </div>
       <div>
         <img className="img1" src={img} />
