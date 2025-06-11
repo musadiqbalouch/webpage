@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='setion1'>
       <>
-        {/* <Headerr /> */}
+        <Headerr />
 
         <Routes>
           <Route path='/' element={<Homee />} />
