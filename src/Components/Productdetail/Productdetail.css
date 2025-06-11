@@ -231,3 +231,596 @@
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
 }
+/* for medium laptops */
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .product1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/Productbackgroundimage.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    gap: -10px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .xoxotitle {
+    color: white;
+    font-size: 30px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .paraofsection2 {
+        font-size: 20px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .productsection1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: -80px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .productsection2 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    overflow: auto;
+    margin-left: -20px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .brdrr {
+    margin: 30px;
+    margin-left: -20px;
+    height: 10px;
+    width: 550px;
+    border: 0.1px solid white
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    ::-webkit-scrollbar {
+    display: none;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+   .productonebg1 {
+    margin-top: 50px;
+    height: 270px;
+    width: 250px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    border: transparent;
+    border-radius: 10px;
+} 
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+   .productonebg2 {
+    height: 270px;
+    width: 250px;
+    border: 3px solid;
+    background: black;
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+} 
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .Productoneimage1{
+    height: 140px;
+    width: 150px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .Productoneimage2 {
+    height: 140px;
+    width: 150px;
+    object-fit: contain;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .bottleitimage {
+    height: 140px;
+    width: 140px;
+}
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    
+.paraofsection2 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .description {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+@media screen and (min-width:  768px) and (max-width: 1024px) { 
+    .descriptiondtail {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+}
+}
+/* for tablets */
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .product1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/Productbackgroundimage.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    gap: -10px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .xoxotitle {
+    color: white;
+    font-size: 25px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .paraofsection2 {
+        font-size: 20px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .productsection1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: -80px;
+}
+}
+@media screen and (min-width:  425px) and (max-width: 768px) { 
+    .productsection2 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    overflow: auto;
+    margin-left: -20px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .brdrr {
+    margin: 30px;
+    margin-left: -20px;
+    height: 10px;
+    width: 550px;
+    border: 0.1px solid white
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px){ 
+    ::-webkit-scrollbar {
+    display: none;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+   .productonebg1 {
+    margin-top: 50px;
+    height: 240px;
+    width: 200px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    border: transparent;
+    border-radius: 10px;
+} 
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+   .productonebg2 {
+    height: 240px;
+    width: 200px;
+    border: 3px solid;
+    background: black;
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+} 
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .Productoneimage1{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .Productoneimage2 {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .bottleitimage {
+    height: 120px;
+    width: 120px;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    
+.paraofsection2 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+ @media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .ratting {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 25px;
+    color: rgba(249, 194, 65, 1);
+}
+}
+
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .review {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .description {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+@media screen and  (min-width:  425px) and (max-width: 768px) { 
+    .descriptiondtail {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+}
+/* for large mobiels */
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .product1 {
+    height: 160vh;
+    width: 100%;
+    background-image: url(../../assets/Productbackgroundimage.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    gap: -10px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .xoxotitle {
+    color: white;
+    font-size: 25px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .paraofsection2 {
+        font-size: 20px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .productsection1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: -80px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .productsection2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+    overflow: auto;
+    margin-left: 20px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .brdrr {
+    margin: 30px;
+    margin-left: -20px;
+    height: 10px;
+    width: 550px;
+    border: 0.1px solid white
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    ::-webkit-scrollbar {
+    display: none;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+   .productonebg1 {
+    margin-top: 50px;
+    height: 240px;
+    width: 200px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    border: transparent;
+    border-radius: 10px;
+} 
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+   .productonebg2 {
+    height: 240px;
+    width: 200px;
+    border: 3px solid;
+    background: black;
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+} 
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .Productoneimage1{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .Productoneimage2 {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .bottleitimage {
+    height: 120px;
+    width: 120px;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    
+.paraofsection2 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+ @media screen and (min-width:  375px) and (max-width: 425px) { 
+    .ratting {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 25px;
+    color: rgba(249, 194, 65, 1);
+}
+}
+
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .review {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .description {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+@media screen and (min-width:  375px) and (max-width: 425px) { 
+    .descriptiondtail {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+}
+/* for small mobiles */
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .product1 {
+    height: 160vh;
+    width: 100%;
+    background-image: url(../../assets/Productbackgroundimage.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    gap: -10px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .xoxotitle {
+    color: white;
+    font-size: 25px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .paraofsection2 {
+        font-size: 20px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .productsection1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: -80px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .productsection2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+    overflow: auto;
+    margin-left: 20px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .brdrr {
+    margin: 30px;
+    margin-left: -20px;
+    height: 10px;
+    width: 550px;
+    border: 0.1px solid white
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    ::-webkit-scrollbar {
+    display: none;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+   .productonebg1 {
+    margin-top: 50px;
+    height: 290px;
+    width: 240px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    border: transparent;
+    border-radius: 10px;
+} 
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+   .productonebg2 {
+    height: 290px;
+    width: 240px;
+    border: 3px solid;
+    background: black;
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+} 
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    .Productoneimage1{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .Productoneimage2 {
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .bottleitimage {
+    height: 120px;
+    width: 120px;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px) { 
+    
+.paraofsection2 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+ @media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .ratting {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 25px;
+    color: rgba(249, 194, 65, 1);
+}
+}
+
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .review {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .description {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .descriptiondtail {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+}
+.dollar {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+@media screen and (min-width:  320px) and (max-width: 375px)  { 
+    .dollar {
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+}
