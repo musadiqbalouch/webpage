@@ -179,3 +179,40 @@
   border-radius: 25px;
 }
 } 
+/* for small mobiles */
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .fivecards{
+        align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  opacity: 0.9;
+    }
+}
+
+@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    .page3heading{
+        align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 8px;
+  padding: 15px;
+  color: white;
+  line-height: 75.44px;
+  font-weight: 400px;
+    }
+}
+ @media screen and  (min-width: 200px) and (max-width: 320px)  { 
+    .page3{
+     font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: radial-gradient(74.99% 52.33% at 50% 47.67%, #EE535D 0%, #850C0C 100%);
+  height: 165vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+} 
