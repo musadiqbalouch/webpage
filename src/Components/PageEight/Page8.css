@@ -616,7 +616,7 @@
     color: rgba(20, 20, 20, 1);
 }
 }
-/* for small mobiles */
+/* for small tablets */
 @media screen and  (min-width:  320px) and (max-width: 375px) { 
     .page8{
       height: 120vh;
@@ -787,3 +787,198 @@
     color: rgba(20, 20, 20, 1);
 }
 }
+/* for mobile phones */
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .page8{
+      height: 130vh;
+    width: 100%;
+    background-color: white;
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .page8imgg{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px){ 
+    .page8img{
+   height: 200px;
+    width: 200px;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .page8heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 8px;
+    color: rgba(20, 20, 20, 1);
+    margin-bottom: -14px;
+    /* padding: 20px; */
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .footer{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 6px;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .h2heading{
+   font-size: 17px !important;
+    color: rgba(181, 37, 46, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: -20px; */
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .subcribeptag{
+       color: rgba(20, 20, 20, 1);
+    font-size: 10px;
+    margin-bottom: 10px;
+         align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+}
+
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .subbtn{
+      height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .entermail{
+      height: 15px;
+    width: 100px;
+    padding: 7.5px;
+    border-radius: 9px;
+    border-color: transparent;
+    border: transparent;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .subsribebtn{
+      height: 25px;
+    width: 60px;
+    padding: 5px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background: rgba(181, 37, 46, 1);
+    color: white;
+    font-size: 12px;
+    border-color: transparent;
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .links{
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+ 
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px){ 
+    .h2heading{
+     font-size: 18px;
+    color: rgba(181, 37, 46, 1);
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .link{
+     color: rgba(20, 20, 20, 1);
+    font-size: 13px;
+    /* padding-top: 3px; */
+    width: 100px;
+    text-decoration: none;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .h22heading{
+     font-size: 8px;
+    font-weight: 300;
+    /* margin-left: 70px; */
+    /* margin-right: -10px; */
+   margin-top: -60px;
+   margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .h222heading{
+        margin-bottom: 15px;
+     font-size: 20px;
+    color: rgba(181, 37, 46, 1);
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+}
+@media screen and  (min-width:  200px) and (max-width: 320px) { 
+    .contacts{
+       font-size: 13px;
+    color: rgba(181, 37, 46, 1);
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .lasttitle{
+     height: 20px;
+    background: rgba(181, 37, 46, 1);
+    text-align: center;
+    color: white;
+    padding: 10px;
+ 
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px) { 
+    .footerr{
+    font-size: 8px;
+    font-weight: 400;
+    padding-top: 2px;
+    }
+}
+@media screen and (min-width:  200px) and (max-width: 320px){ 
+ .h2headinggg {
+    font-size: 20px;
+    color: rgba(181, 37, 46, 1);
+    margin-top: -23px;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
+@media screen and (min-width:  200px) and (max-width: 320px){ 
+.input.entermail {
+    border: transparent;
+    font-size: 0px;
+}
+}
+@media screen and (min-width:  200px) and (max-width: 320px){ 
+.entermail::placeholder {
+    font-size: 12px;
+    border: transparent;
+    color: rgba(20, 20, 20, 1);
+}
+}
+

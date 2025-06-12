@@ -695,7 +695,7 @@
     color: black;
 }
 }
-/* for small mobiles */
+/* for small tablests */
 @media screen and (min-width:  320px) and (max-width: 375px) { 
     .pagefivee{
           background-color: black;
@@ -893,6 +893,229 @@
 }
 }
  @media screen and (min-width:  320px) and (max-width: 375px) { 
+.usa.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
+/* for small mobiles */
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pagefivee{
+          background-color: black;
+    height: 240vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;  
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pg5section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 0px;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .imgpg5{
+              margin-top: 30px;
+    height: 250px;
+    margin-left: -50px;
+    width: 250px;
+    object-fit: cover;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px){ 
+    .pgsection11{
+             margin-bottom: 40px;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .h2ofpg51{
+          font-size: 18px;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          width: 250px;
+        
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pofpg5{
+    width: 270px;
+    font-size: 7px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 16pt;
+    margin-top: 25px;
+    font-weight: 390;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-left: -10px; */
+    }
+} 
+
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+   .bottle {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+    justify-content: space-between;
+    font-weight: 100;
+}
+}
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pg5section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 35px;
+    width: 200px;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pg5section3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 25px;
+    gap: 1px;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .imgpg51{
+    height: 180px;
+    width: 260px;
+    object-fit: cover;
+    margin-right: 20px;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pofpg51{
+    font-size: 8px;
+    color: rgba(255, 255, 255, 1);
+    height: 180px;
+    font-weight: 500;
+    width: 250px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -150px;
+    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    color: rgba(20, 20, 20, 1);
+    border-radius: 30px;
+    line-height: 1.2;
+    /* margin-left: -2px; */
+    margin-right: 25px;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .imgpg511{
+    height: 180px;
+    width: 260px;
+    object-fit: cover;
+    }
+} 
+@media screen and (min-width: 200px) and (max-width: 320px) { 
+    .pofpg511{
+       font-size: 8px;
+    color: rgba(255, 255, 255, 1);
+    height: 200px;
+    font-weight: 500;
+    width: 250px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -150px;
+    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    color: rgba(20, 20, 20, 1);
+    border-radius: 30px;
+    line-height: 1.2;
+    margin-left: -2px;
+    }
+} 
+ @media screen and (min-width: 200px) and (max-width: 320px) { 
+  .pg5section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 20px;
+    width: 120px;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+
+}
+}
+ @media screen and (min-width: 200px) and (max-width: 320px) { 
+   .usa {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+}
+} 
+ @media screen and (min-width: 200px) and (max-width: 320px) { 
+ .canada {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+}
+}
+ @media screen and (min-width: 200px) and (max-width: 320px) { 
+.canada.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    color: black;
+}
+}
+ @media screen and (min-width: 200px) and (max-width: 320px) { 
 .usa.active {
     font-size: 12px;
     font-weight: 500;

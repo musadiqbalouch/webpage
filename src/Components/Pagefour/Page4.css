@@ -192,7 +192,7 @@
     line-height: 10pt; 
     }
 }
-/* for small mobile */
+/* for small tablets */
 @media screen and  (min-width:  320px) and (max-width: 375px) { 
     .pagefour{
            height: 90vh;
@@ -240,6 +240,63 @@
     .ptagofpg4{
         /* width: 300px; */
           font-size: 7px;
+    color: rgba(20, 20, 20, 1);
+    margin: -8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    line-height: 10pt; 
+    }
+}
+/* for small mobiles */
+@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    .pagefour{
+           height: 90vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+} 
+@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    .imagee{
+            /* margin-top: 30px; */
+            margin-bottom: -80px;
+            /* margin-top: -10px; */
+    height: 200px;
+    width: 200px;
+    }
+}
+@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    .pgfourbox{
+          display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    }
+}
+@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    .pg4heading{
+            width: 407;
+    /* height: 73; */
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(181, 37, 46, 1);
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+}
+@media screen and  (min-width: 200px) and (max-width: 320px){ 
+    .ptagofpg4{
+        /* width: 300px; */
+          font-size: 6px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     align-items: center;
