@@ -52,22 +52,16 @@
     font-weight: 400;
     font-style: normal;
 }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .imagee{
+.imagee{
             margin: 30px;
     height: 450px;
     width: 450px;
     }
-}
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .pgfourbox{
           display: flex;
     flex-direction: column;
     margin: 30px;
     }
-}
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .pg4heading{
             width: 407;
     height: 73;
@@ -76,8 +70,6 @@
     font-size: 40px;
     color: rgba(181, 37, 46, 1);
     }
-}
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .ptagofpg4{
           font-size: 12px;
     color: rgba(20, 20, 20, 1);
@@ -85,7 +77,8 @@
     margin: 5px;
     line-height: 10 pt; 
     }
-}
+} 
+    
 /* for tablets */
 @media screen and (min-width:  425px) and (max-width: 768px) { 
     .pagefour{
@@ -100,22 +93,16 @@
     font-weight: 400;
     font-style: normal;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
-    .imagee{
+     .imagee{
             margin: 30px;
     height: 350px;
     width: 350px;
     }
-}
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .pgfourbox{
           display: flex;
     flex-direction: column;
     margin: 30px;
     }
-}
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .pg4heading{
             width: 407;
     height: 73;
@@ -124,8 +111,6 @@
     font-size: 30px;
     color: rgba(181, 37, 46, 1);
     }
-}
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .ptagofpg4{
         /* width: 300px; */
           font-size: 8px;
@@ -134,7 +119,8 @@
     margin: 5px;
     line-height: 10pt; 
     }
-}
+} 
+   
 /* for large mobile */
 @media screen and  (min-width:  375px) and (max-width: 425px) { 
     .pagefour{
@@ -149,24 +135,18 @@
     font-weight: 400;
     font-style: normal;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
-    .imagee{
+     .imagee{
             /* margin-top: 30px; */
             margin-bottom: -80px;
             /* margin-top: -10px; */
     height: 250px;
     width: 250px;
     }
-}
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .pgfourbox{
           display: flex;
     flex-direction: column;
     margin-top: 80px;
     }
-}
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .pg4heading{
             width: 407;
     height: 73;
@@ -178,8 +158,6 @@
     justify-content: center;
     text-align: center;
     }
-}
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .ptagofpg4{
         /* width: 300px; */
           font-size: 8px;
@@ -191,8 +169,8 @@
     margin: 5px;
     line-height: 10pt; 
     }
-}
-/* for small tablets */
+} 
+/* for medium tablets */
 @media screen and  (min-width:  320px) and (max-width: 375px) { 
     .pagefour{
            height: 90vh;
@@ -206,24 +184,19 @@
     font-weight: 400;
     font-style: normal;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
-    .imagee{
+     .imagee{
             /* margin-top: 30px; */
             margin-bottom: -80px;
             /* margin-top: -10px; */
     height: 230px;
     width: 230px;
     }
-}
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
+
     .pgfourbox{
           display: flex;
     flex-direction: column;
     margin-top: 80px;
     }
-}
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .pg4heading{
             width: 407;
     height: 73;
@@ -235,8 +208,6 @@
     justify-content: center;
     text-align: center;
     }
-}
-@media screen and  (min-width:  320px) and (max-width: 375px){ 
     .ptagofpg4{
         /* width: 300px; */
           font-size: 7px;
@@ -248,7 +219,9 @@
     margin: 5px;
     line-height: 10pt; 
     }
-}
+} 
+
+   
 /* for small mobiles */
 @media screen and  (min-width: 200px) and (max-width: 320px) { 
     .pagefour{
@@ -263,24 +236,18 @@
     font-weight: 400;
     font-style: normal;
     }
-} 
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
-    .imagee{
+ .imagee{
             /* margin-top: 30px; */
             margin-bottom: -80px;
             /* margin-top: -10px; */
     height: 200px;
     width: 200px;
     }
-}
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
     .pgfourbox{
           display: flex;
     flex-direction: column;
     margin-top: 80px;
-    }
-}
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
+    } 
     .pg4heading{
             width: 407;
     /* height: 73; */
@@ -292,8 +259,6 @@
     justify-content: center;
     text-align: center;
     }
-}
-@media screen and  (min-width: 200px) and (max-width: 320px){ 
     .ptagofpg4{
         /* width: 300px; */
           font-size: 6px;
@@ -305,4 +270,5 @@
     margin: 5px;
     line-height: 10pt; 
     }
-}
+} 
+   

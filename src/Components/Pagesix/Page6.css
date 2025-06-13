@@ -131,8 +131,6 @@
     background-position: center;
     background-size: cover;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .pagesixheading{
           height: 120px;
     align-items: center;
@@ -141,8 +139,6 @@
     padding-top: 30px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .containerr{
             height: 80vh;
     align-items: center;
@@ -151,15 +147,11 @@
     flex-wrap: nowrap;
     margin-top: -130px; 
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .imgleft{
              margin-top: 300px;
     height: 600px;
     width: 250px;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .video1{
         margin-top: 150px;
     height: 250px;
@@ -169,23 +161,17 @@
     /* border-left: 15px solid whitesmoke;
     border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .imgright{
      margin-top: 290px;
     height: 600px;
     width: 250px;
     margin-right: 10px;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .img2left{
                margin-top: 500px;
     height: 400px;
     width: 250px;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .video2{
            margin-top: 150px;
     height: 240px;
@@ -193,19 +179,13 @@
     margin-bottom: 15px;
     margin-right: 10px; 
     margin-left: 30px;
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .img2right{
              margin-top: 290px;
     height: 600px;
     width: 250px;
     margin-right: 10px;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .bg{
             height: 280px;
     width: 100%;
@@ -213,8 +193,6 @@
     align-items: center;
     justify-content: center;
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .arrowleft{
            align-items: center;
     justify-content: center;
@@ -227,8 +205,6 @@
     color: white;
     background-color: rgba(181, 37, 46, 1);
     }
-} 
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
     .arrowright{
            align-items: center;
     justify-content: center;
@@ -242,6 +218,7 @@
     background-color: rgba(181, 37, 46, 1);
     }
 } 
+    
 /* for tablets */
 @media screen and (min-width:  425px) and (max-width: 768px) { 
     .pagesix{
@@ -251,9 +228,7 @@
     background-position: center;
     background-size: cover;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
-    .pagesixheading{
+      .pagesixheading{
           height: 120px;
     align-items: center;
     justify-content: center;
@@ -261,8 +236,6 @@
     padding-top: 30px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .containerr{
             height: 80vh;
     align-items: center;
@@ -271,15 +244,11 @@
     flex-wrap: nowrap;
     margin-top: -130px; 
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .imgleft{
              margin-top: 300px;
     height: 600px;
     width: 180px;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .video1{
         margin-top: 150px;
     height: 250px;
@@ -287,26 +256,17 @@
     margin-bottom: 15px;
     margin-right: -20px;
     margin-left: -20px;
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .imgright{
              margin-top: 290px;
     height: 600px;
     width: 175px;
-    /* margin-right: 10px; */
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .img2left{
               margin-top: 400px;
     height: 300px;
     width: 180px;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .video2{
            margin-top: 150px;
     height: 250px;
@@ -314,16 +274,12 @@
     margin-bottom: 15px;
     margin-right: 20px;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .img2right{
              margin-top: 290px;
     height: 600px;
     width: 175px;
     margin-right: 10px;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .bg{
             height: 210px;
     width: 100%;
@@ -331,8 +287,6 @@
     align-items: center;
     justify-content: center;
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .arrowleft{
            align-items: center;
     justify-content: center;
@@ -345,8 +299,6 @@
     color: white;
     background-color: rgba(181, 37, 46, 1);
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .arrowright{
            align-items: center;
     justify-content: center;
@@ -360,6 +312,7 @@
     background-color: rgba(181, 37, 46, 1);
     }
 } 
+  
 /* for large mobiles */
 @media screen and  (min-width:  375px) and (max-width: 425px) { 
     .pagesix{
@@ -369,9 +322,7 @@
     background-position: center;
     background-size: cover;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
-    .pagesixheading{
+     .pagesixheading{
           height: 120px;
     align-items: center;
     justify-content: center;
@@ -379,8 +330,6 @@
     padding-top: 30px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     }
-} 
-@media screen and (min-width:  425px) and (max-width: 768px) { 
     .h222{
         height: 20px;
     width: 250px;
@@ -392,8 +341,6 @@
     border: 0cap;
     color: white;
     }
-}
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .containerr{
     height: 80vh;
     align-items: center;
@@ -401,27 +348,18 @@
     display: flex;
     margin-top: -130px; 
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .imgleft{
     margin-top: 300px;
     height: 600px;
     width: 180px;
     display: none;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .video1{
         margin-top: 40px;
     height: 200px;
     width: 370px;
     margin-bottom: 15px;
-    /* margin-right: 10px; */
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
-    }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
+    } 
     .imgright{
              margin-top: 680px;
     height: 400px;
@@ -429,29 +367,19 @@
     margin-right: 30px;
     display: none;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .img2left{
               margin-top: 400px;
     height: 300px;
     width: 180px;
     display: none;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .video2{
            margin-top: 40px;
     height: 200px;
     width: 370px;
     margin-bottom: 15px;
-    /* margin-right: -5px; */
-    /* margin-right: 10px;  */
     margin-left: 10px;
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .img2right{
              margin-top: 290px;
     height: 600px;
@@ -459,8 +387,6 @@
     margin-right: 10px;
     display: none;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .bg{
             height: 210px;
     width: 100%;
@@ -468,8 +394,6 @@
     align-items: center;
     justify-content: center;
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .arrowleft{
            align-items: center;
     justify-content: center;
@@ -483,8 +407,6 @@
     color: white;
     background-color: rgba(181, 37, 46, 1);
     }
-} 
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
     .arrowright{
            align-items: center;
     justify-content: center;
@@ -498,6 +420,7 @@
     background-color: rgba(181, 37, 46, 1);
     }
 } 
+   
 /* for small tablets */
 @media screen and (min-width:  320px) and (max-width: 375px) { 
     .pagesix{
@@ -507,9 +430,7 @@
     background-position: center;
     background-size: cover;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
-    .pagesixheading{
+     .pagesixheading{
           height: 120px;
     align-items: center;
     justify-content: center;
@@ -517,8 +438,6 @@
     padding-top: 30px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     }
-} 
-@media screen and (min-width:  320px) and (max-width: 375px) { 
     .h222{
         height: 20px;
     width: 250px;
@@ -530,8 +449,6 @@
     border: 0cap;
     color: white;
     }
-}
-@media screen and (min-width:  320px) and (max-width: 375px) { 
     .containerr{
     height: 80vh;
     align-items: center;
@@ -539,28 +456,19 @@
     display: flex;
     margin-top: -130px; 
     }
-} 
-@media screen and (min-width:  320px) and (max-width: 375px) { 
     .imgleft{
     margin-top: 300px;
     height: 600px;
     width: 180px;
     display: none;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .video1{
         margin-top: 40px;
     height: 200px;
     width: 340px;
     margin-bottom: 15px;
-    /* margin-right: -1px; */
     margin-left: 25px;
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
-    }
-} 
-@media screen and (min-width:  320px) and (max-width: 375px) { 
+    } 
     .imgright{
              margin-top: 680px;
     height: 400px;
@@ -568,16 +476,12 @@
     margin-right: 30px;
     display: none;
     }
-} 
-@media screen and (min-width:  320px) and (max-width: 375px) { 
     .img2left{
               margin-top: 400px;
     height: 300px;
     width: 180px;
     display: none;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .video2{
            margin-top: 40px;
     height: 200px;
@@ -586,11 +490,7 @@
     margin-right: 20px;
     /* margin-right: 10px;  */
     margin-left: 25px;
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .img2right{
              margin-top: 290px;
     height: 600px;
@@ -598,8 +498,6 @@
     margin-right: 10px;
     display: none;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .bg{
             height: 210px;
     width: 100%;
@@ -607,8 +505,6 @@
     align-items: center;
     justify-content: center;
     }
-} 
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
     .arrowleft{
            align-items: center;
     justify-content: center;
@@ -622,8 +518,6 @@
     color: white;
     background-color: rgba(181, 37, 46, 1);
     }
-} 
-@media screen and (min-width:  320px) and (max-width: 375px) { 
     .arrowright{
            align-items: center;
     justify-content: center;
@@ -635,8 +529,9 @@
     border-radius: 20px;
     color: #FFFFFF;
     background-color: rgba(181, 37, 46, 1);
-    }
+    } 
 } 
+   
 /* for small mobils */
 @media screen and (min-width: 200px) and (max-width: 320px) { 
     .pagesix{
@@ -646,9 +541,7 @@
     background-position: center;
     background-size: cover;
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
-    .pagesixheading{
+     .pagesixheading{
           height: 120px;
     align-items: center;
     justify-content: center;
@@ -656,8 +549,7 @@
     padding-top: 30px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
+
     .h222{
         height: 20px;
     width: 250px;
@@ -669,8 +561,6 @@
     border: 0cap;
     color: white;
     }
-}
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .containerr{
     height: 80vh;
     align-items: center;
@@ -678,26 +568,15 @@
     display: flex;
     margin-top: -130px; 
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .imgleft{
-  
     display: none;
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .video1{
         margin-top: 40px;
     height: 200px;
     width: 280px;
     margin-bottom: 15px;
-    /* margin-right: -1px; */
-    /* margin-left: 25px; */
-    /* border-left: 15px solid whitesmoke;
-    border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .imgright{
              margin-top: 680px;
     height: 400px;
@@ -705,16 +584,12 @@
     margin-right: 30px;
     display: none;
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .img2left{
               margin-top: 400px;
     height: 300px;
     width: 180px;
     display: none;
     }
-} 
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
     .video2{
            margin-top: 40px;
     height: 200px;
@@ -726,8 +601,6 @@
     /* border-left: 15px solid whitesmoke;
     border-right: 15px solid whitesmoke;   */
     }
-} 
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
     .img2right{
              margin-top: 290px;
     height: 600px;
@@ -735,8 +608,6 @@
     margin-right: 10px;
     display: none;
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .bg{
             height: 210px;
     width: 100%;
@@ -744,8 +615,6 @@
     align-items: center;
     justify-content: center;
     }
-} 
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
     .arrowleft{
            align-items: center;
     justify-content: center;
@@ -759,8 +628,6 @@
     color: white;
     background-color: rgba(181, 37, 46, 1);
     }
-} 
-@media screen and (min-width: 200px) and (max-width: 320px) { 
     .arrowright{
            align-items: center;
     justify-content: center;
@@ -775,3 +642,4 @@
     background-color: rgba(181, 37, 46, 1);
     }
 } 
+   
