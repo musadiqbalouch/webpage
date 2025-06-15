@@ -391,18 +391,19 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 10.7px;
+    font-size: 9px;
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
+    margin-right: 20px;
     /* padding: 20px; */
   }
   .footer {
-    height: 430px;
+    height: 800px;
     align-items: center;
     justify-content: center;
     text-align: start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
@@ -446,6 +447,9 @@
   .h2heading {
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .link {
     color: rgba(20, 20, 20, 1);
@@ -453,12 +457,23 @@
     /* padding-top: 3px; */
     width: 100px;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .h2headinggg {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
   .h22heading {
     font-size: 10px;
     font-weight: 400;
-    margin-left: 70px;
+    margin-left: 0px;
     margin-right: -10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .h222heading {
     margin-bottom: 15px;
@@ -525,12 +540,12 @@
     /* padding: 20px; */
   }
   .footer {
-    height: 430px;
+    height: 800px;
     align-items: center;
     justify-content: center;
     text-align: start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
@@ -587,7 +602,7 @@
   .h22heading {
     font-size: 10px;
     font-weight: 400;
-    margin-left: 70px;
+    margin-left: 40px;
     margin-right: -10px;
   }
   .h222heading {
@@ -656,12 +671,12 @@
     /* padding: 20px; */
   }
   .footer {
-    height: 500px;
+    height: 750px;
     align-items: center;
     justify-content: center;
     text-align: start;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
@@ -737,6 +752,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
   }
   .h222heading {
     margin-bottom: 15px;
