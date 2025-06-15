@@ -1,235 +1,246 @@
 .pagefivee {
-    background-color: black;
-    height: 195vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
-    border-radius: 25px;
-    font-family: "Poppins", sans-serif;
+  background-color: black;
+  height: 195vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background: radial-gradient(
+    89.92% 63.73% at 50% 50%,
+    #ee535d 0%,
+    #850c0c 100%
+  );
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
 }
 .pg5section1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    gap: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  gap: 50px;
 }
 .imgpg5 {
-    margin-top: 60px;
-    height: 510px;
-    width: 575px;
-    object-fit: cover;
+  margin-top: 60px;
+  height: 510px;
+  width: 575px;
+  object-fit: cover;
 }
 .pgsection11 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .h2ofpg5 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .h2color {
-    background: linear-gradient(180deg, #FFFFFF 0%, #2E44BA 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-    display: inline-block;
+  background: linear-gradient(180deg, #ffffff 0%, #2e44ba 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
 }
 
 .h2ofpg51 {
-    font-size: 55px;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 1);
-    line-height: 33pt;
+  font-size: 55px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 33pt;
 }
 
 .pofpg5 {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    line-height: 16pt;
-    margin-top: 30px;
-    font-weight: 390;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 16pt;
+  margin-top: 30px;
+  font-weight: 390;
 }
 
 .bottle {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    margin-bottom: 25px;
-    font-size: 30px;
-    color: white;
-    justify-content: space-between;
-    font-weight: 100;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: white;
+  justify-content: space-between;
+  font-weight: 100;
 }
 
 .pg5section2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    height: 35px;
-    width: 200px;
-    border-color: transparent;
-    border-radius: 20px;
-    padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 35px;
+  width: 200px;
+  border-color: transparent;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(
+    220.26deg,
+    rgba(255, 255, 255, 0.25) 1.52%,
+    rgba(255, 255, 255, 0.025) 83.2%
+  );
 }
 
 .usa {
-    font-size: 18px;
-    height: 36px;
-    font-weight: 500;
-    width: 150px;
-    border-radius: 20px;
-    background: transparent;
-    border: 0cap;
-    color: white;
-    cursor: pointer;
+  font-size: 18px;
+  height: 36px;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 20px;
+  background: transparent;
+  border: 0cap;
+  color: white;
+  cursor: pointer;
 }
 
 .canada {
-    font-size: 18px;
-    height: 36px;
-    font-weight: 500;
-    width: 150px;
-    border-radius: 20px;
-    background: transparent;
-    border: 0cap;
-    color: white;
-    cursor: pointer;
+  font-size: 18px;
+  height: 36px;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 20px;
+  background: transparent;
+  border: 0cap;
+  color: white;
+  cursor: pointer;
 }
 
 .canada.active {
-    font-size: 18px;
-    font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
-    color: black;
+  font-size: 18px;
+  font-weight: 500;
+  background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
+  color: black;
 }
 .usa.active {
-    font-size: 18px;
-    font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
-    color: black;
+  font-size: 18px;
+  font-weight: 500;
+  background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
+  color: black;
 }
 
 .h2ofpg52 {
-    font-size: 50px;
-    color: white;
-    margin-top: -50px;
-    font-weight: 500;
+  font-size: 50px;
+  color: white;
+  margin-top: -50px;
+  font-weight: 500;
 }
 
 .pg5section3 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 30px;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+  gap: 30px;
 }
 
 .imgpg51 {
-    height: 300px;
-    width: 500px;
-    margin-bottom: 200px;
-    object-fit: cover;
+  height: 300px;
+  width: 500px;
+  margin-bottom: 200px;
+  object-fit: cover;
 }
 
 .imgpg511 {
-    height: 450px;
-    width: 500px;
-    margin-bottom: 230px;
-    object-fit: cover;
+  height: 450px;
+  width: 500px;
+  margin-bottom: 230px;
+  object-fit: cover;
 }
 .pofpg51 {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    height: 330px;
-    font-weight: 600;
-    width: 580px;
-    border: 1px solid white;
-    margin-bottom: 250px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
-    color: rgba(20, 20, 20, 1);
-    border-radius: 30px;
-    line-height: 1.4;
-    margin-left: 40px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  height: 330px;
+  font-weight: 600;
+  width: 580px;
+  border: 1px solid white;
+  margin-bottom: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
+  color: rgba(20, 20, 20, 1);
+  border-radius: 30px;
+  line-height: 1.4;
+  margin-left: 40px;
 }
 .pofpg511 {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    height: 430px;
-    font-weight: 600;
-    width: 550px;
-    border: 1px solid white;
-    margin-bottom: 250px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
-    color: rgba(20, 20, 20, 1);
-    border-radius: 30px;
-    line-height: 1.4;
-    margin-left: 40px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  height: 430px;
+  font-weight: 600;
+  width: 550px;
+  border: 1px solid white;
+  margin-bottom: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
+  color: rgba(20, 20, 20, 1);
+  border-radius: 30px;
+  line-height: 1.4;
+  margin-left: 40px;
 }
 /* for medium laptops */
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .pagefivee{
-          background-color: black;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pagefivee {
+    background-color: black;
     height: 155vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    background: radial-gradient(
+      89.92% 63.73% at 50% 50%,
+      #ee535d 0%,
+      #850c0c 100%
+    );
     border-radius: 25px;
-    font-family: "Poppins", sans-serif;  
-    }
-     .pg5section1{
+    font-family: "Poppins", sans-serif;
+  }
+  .pg5section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 40px;
     gap: 40px;
-    }
-    .imgpg5{
-              margin-top: 50px;
+  }
+  .imgpg5 {
+    margin-top: 50px;
     height: 460px;
     width: 490px;
     object-fit: cover;
-    }
-    .pgsection11{
-             margin-bottom: 40px;
-    }
-    .h2ofpg51{
-          font-size: 27px;
-    }
-    .pofpg5{
+  }
+  .pgsection11 {
+    margin-bottom: 40px;
+  }
+  .h2ofpg51 {
+    font-size: 27px;
+  }
+  .pofpg5 {
     width: 450px;
     font-size: 12px;
     color: rgba(255, 255, 255, 1);
     line-height: 16pt;
     margin-top: 25px;
     font-weight: 390;
-    }
-    .pg5section2{
-           display: flex;
+  }
+  .pg5section2 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -240,10 +251,14 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-    }
-    .pg5section3{
-             display: flex;
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .pg5section3 {
+    display: flex;
     flex-direction: row;
     padding-top: 13px;
     display: flex;
@@ -253,15 +268,15 @@
     margin: auto;
     padding: 25px;
     gap: 25px;
-    }
-    .imgpg51{
-              height: 270px;
+  }
+  .imgpg51 {
+    height: 270px;
     width: 450px;
     margin-bottom: 200px;
     object-fit: cover;
-    }
-    .pofpg51{
-            font-size: 13px;
+  }
+  .pofpg51 {
+    font-size: 13px;
     color: rgba(255, 255, 255, 1);
     height: 320px;
     font-weight: 600;
@@ -272,20 +287,20 @@
     justify-content: center;
     text-align: center;
     padding: 12px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.4;
     margin-left: 30px;
-    }
-    .imgpg511{
-        height: 360px;
+  }
+  .imgpg511 {
+    height: 360px;
     width: 400px;
     margin-bottom: 200px;
     object-fit: cover;
-    }
-    .pofpg511{
-            font-size: 13px;
+  }
+  .pofpg511 {
+    font-size: 13px;
     color: rgba(255, 255, 255, 1);
     height: 360px;
     font-weight: 600;
@@ -296,59 +311,62 @@
     justify-content: center;
     text-align: center;
     padding: 8px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.4;
     margin-left: 30px;
-    }
-} 
+  }
+}
 
-   
 /* for tablets */
-@media screen and (min-width:  425px) and (max-width: 768px) { 
-    .pagefivee{
-          background-color: black;
-    height: 170vh;
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .pagefivee {
+    background-color: black;
+    height: 175vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    background: radial-gradient(
+      89.92% 63.73% at 50% 50%,
+      #ee535d 0%,
+      #850c0c 100%
+    );
     border-radius: 25px;
-    font-family: "Poppins", sans-serif;  
-    }
-     .pg5section1{
+    font-family: "Poppins", sans-serif;
+  }
+  .pg5section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 40px;
     gap: 0px;
-    }
-    .imgpg5{
-              margin-top: 50px;
+  }
+  .imgpg5 {
+    margin-top: 50px;
     height: 360px;
     margin-left: -50px;
     width: 380px;
     object-fit: cover;
-    }
-    .pgsection11{
-             margin-bottom: 40px;
-    }
-    .h2ofpg51{
-          font-size: 27px;
-    }
-    .pofpg5{
+  }
+  .pgsection11 {
+    margin-bottom: 40px;
+  }
+  .h2ofpg51 {
+    font-size: 27px;
+  }
+  .pofpg5 {
     width: 400px;
     font-size: 11px;
     color: rgba(255, 255, 255, 1);
     line-height: 16pt;
     margin-top: 25px;
     font-weight: 390;
-    }
-    .pg5section2{
-           display: flex;
+  }
+  .pg5section2 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -359,10 +377,14 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-    }
-    .pg5section3{
-             display: flex;
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .pg5section3 {
+    display: flex;
     flex-direction: row;
     padding-top: 13px;
     display: flex;
@@ -372,15 +394,15 @@
     margin: auto;
     padding: 25px;
     gap: 1px;
-    }
-    .imgpg51{
-              height: 250px;
+  }
+  .imgpg51 {
+    height: 250px;
     width: 340px;
     margin-bottom: 200px;
     object-fit: cover;
-    }
-    .pofpg51{
-            font-size: 10.8px;
+  }
+  .pofpg51 {
+    font-size: 10.8px;
     color: rgba(255, 255, 255, 1);
     height: 250px;
     font-weight: 600;
@@ -392,20 +414,20 @@
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: 30px;
-    }
-    .imgpg511{
-        height: 250px;
+  }
+  .imgpg511 {
+    height: 250px;
     width: 340px;
     margin-bottom: 200px;
     object-fit: cover;
-    }
-    .pofpg511{
-            font-size: 10.8px;
+  }
+  .pofpg511 {
+    font-size: 10.8px;
     color: rgba(255, 255, 255, 1);
     height: 285px;
     font-weight: 600;
@@ -416,14 +438,14 @@
     justify-content: center;
     text-align: center;
     padding-top: 10px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.4;
     margin-left: 30px;
-    } 
-    .bottle{
-           height: 50px;
+  }
+  .bottle {
+    height: 50px;
     width: 100%;
     text-align: center;
     margin-top: -50px;
@@ -432,48 +454,52 @@
     color: white;
     justify-content: space-between;
     font-weight: 100;
-    }
-} 
-   
+  }
+}
+
 /* for large mobile */
-@media screen and (min-width:  375px) and (max-width: 425px) { 
-    .pagefivee{
-          background-color: black;
-    height: 260vh;
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .pagefivee {
+    background-color: black;
+    height: 280vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    background: radial-gradient(
+      89.92% 63.73% at 50% 50%,
+      #ee535d 0%,
+      #850c0c 100%
+    );
     border-radius: 25px;
-    font-family: "Poppins", sans-serif;  
-    }
-      .pg5section1{
+    font-family: "Poppins", sans-serif;
+  }
+  .pg5section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 40px;
     gap: 0px;
-    }
-    .imgpg5{
-              margin-top: 50px;
+  }
+  .imgpg5 {
+    margin-top: 50px;
     height: 280px;
     margin-left: -30px;
     width: 300px;
     object-fit: cover;
-    }
-    .pgsection11{
-             margin-bottom: 40px;
-    }
-    .h2ofpg51{
-          font-size: 22px;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          margin-left: -10px;
-    }
-    .pofpg5{
+  }
+  .pgsection11 {
+    margin-bottom: 40px;
+  }
+  .h2ofpg51 {
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: -10px;
+  }
+  .pofpg5 {
     width: 370px;
     font-size: 9px;
     color: rgba(255, 255, 255, 1);
@@ -484,8 +510,8 @@
     justify-content: center;
     text-align: center;
     margin-left: -10px;
-    }
-    .pg5section2{
+  }
+  .pg5section2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -497,9 +523,13 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-    }
-    .pg5section3{
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .pg5section3 {
     display: flex;
     flex-direction: row;
     padding-top: 13px;
@@ -510,13 +540,13 @@
     margin: auto;
     padding: 25px;
     gap: 1px;
-    } 
-    .imgpg51{
+  }
+  .imgpg51 {
     height: 200px;
     width: 340px;
     object-fit: cover;
-    }
-    .pofpg51{
+  }
+  .pofpg51 {
     font-size: 10.8px;
     color: rgba(255, 255, 255, 1);
     height: 220px;
@@ -528,18 +558,18 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: -2px;
-    }
-    .imgpg511{
+  }
+  .imgpg511 {
     height: 200px;
     width: 340px;
     object-fit: cover;
-    }
-    .pofpg511{
+  }
+  .pofpg511 {
     font-size: 10.8px;
     color: rgba(255, 255, 255, 1);
     height: 250px;
@@ -551,14 +581,14 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: -2px;
-    }
-    .bottle{
-           height: 50px;
+  }
+  .bottle {
+    height: 50px;
     width: 100%;
     text-align: center;
     margin-top: -50px;
@@ -567,8 +597,8 @@
     color: white;
     justify-content: space-between;
     font-weight: 100;
-    }
-      .pg5section2 {
+  }
+  .pg5section2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -580,10 +610,13 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-
-}
-   .usa {
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .usa {
     font-size: 12px;
     height: 30px;
     font-weight: 500;
@@ -593,8 +626,8 @@
     border: 0cap;
     color: white;
     cursor: pointer;
-}
- .canada {
+  }
+  .canada {
     font-size: 14px;
     height: 30px;
     font-weight: 500;
@@ -604,61 +637,64 @@
     border: 0cap;
     color: white;
     cursor: pointer;
-}
-.canada.active {
+  }
+  .canada.active {
     font-size: 14px;
     font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
     color: black;
-}
-.usa.active {
+  }
+  .usa.active {
     font-size: 14px;
     font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
     color: black;
+  }
 }
-} 
-  
+
 /* for small tablests */
-@media screen and (min-width:  320px) and (max-width: 375px) { 
-    .pagefivee{
-          background-color: black;
+@media screen and (min-width: 321px) and (max-width: 374px) {
+  .pagefivee {
+    background-color: black;
     height: 240vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    background: radial-gradient(
+      89.92% 63.73% at 50% 50%,
+      #ee535d 0%,
+      #850c0c 100%
+    );
     border-radius: 25px;
-    font-family: "Poppins", sans-serif;  
-    }
-      .pg5section1{
+    font-family: "Poppins", sans-serif;
+  }
+  .pg5section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 40px;
     gap: 0px;
-    }
-    .imgpg5{
-              margin-top: 50px;
+  }
+  .imgpg5 {
+    margin-top: 50px;
     height: 280px;
     margin-left: -30px;
     width: 300px;
     object-fit: cover;
-    }
-    .pgsection11{
-             margin-bottom: 40px;
-    }
-    .h2ofpg51{
-          font-size: 20px;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          width: 300px;
-        
-    } 
-    .pofpg5{
+  }
+  .pgsection11 {
+    margin-bottom: 40px;
+  }
+  .h2ofpg51 {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+  }
+  .pofpg5 {
     width: 320px;
     font-size: 8px;
     color: rgba(255, 255, 255, 1);
@@ -669,8 +705,8 @@
     justify-content: center;
     text-align: center;
     margin-left: -10px;
-    }
-    .pg5section2{
+  }
+  .pg5section2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -682,9 +718,13 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-    }
-    .pg5section3{
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .pg5section3 {
     display: flex;
     flex-direction: row;
     padding-top: 13px;
@@ -695,13 +735,13 @@
     margin: auto;
     padding: 25px;
     gap: 1px;
-    }
-    .imgpg51{
+  }
+  .imgpg51 {
     height: 200px;
     width: 300px;
     object-fit: cover;
-    }
-    .pofpg51{
+  }
+  .pofpg51 {
     font-size: 9px;
     color: rgba(255, 255, 255, 1);
     height: 180px;
@@ -713,19 +753,19 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: -2px;
-    }
-    .imgpg511{
+  }
+  .imgpg511 {
     height: 200px;
     width: 300px;
     object-fit: cover;
-    }
-    .pofpg511{
-       font-size: 9px;
+  }
+  .pofpg511 {
+    font-size: 9px;
     color: rgba(255, 255, 255, 1);
     height: 200px;
     font-weight: 600;
@@ -736,12 +776,12 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: -2px;
-    }
+  }
   .pg5section2 {
     display: flex;
     flex-direction: row;
@@ -754,84 +794,91 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .usa {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+  }
+  .canada {
+    font-size: 12px;
+    height: 25px;
+    font-weight: 500;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0cap;
+    color: white;
+    cursor: pointer;
+  }
+  .canada.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
+    color: black;
+  }
+  .usa.active {
+    font-size: 12px;
+    font-weight: 500;
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
+    color: black;
+  }
+}
 
-}
-   .usa {
-    font-size: 12px;
-    height: 25px;
-    font-weight: 500;
-    width: 80px;
-    border-radius: 20px;
-    background: transparent;
-    border: 0cap;
-    color: white;
-    cursor: pointer;
-}
- .canada {
-    font-size: 12px;
-    height: 25px;
-    font-weight: 500;
-    width: 80px;
-    border-radius: 20px;
-    background: transparent;
-    border: 0cap;
-    color: white;
-    cursor: pointer;
-}
-.canada.active {
-    font-size: 12px;
-    font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
-    color: black;
-}
-.usa.active {
-    font-size: 12px;
-    font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
-    color: black;
-}
-} 
-  
 /* for small mobiles */
-@media screen and (min-width: 200px) and (max-width: 320px) { 
-    .pagefivee{
-          background-color: black;
-    height: 240vh;
+@media screen and (min-width: 200px) and (max-width: 320px) {
+  .pagefivee {
+    background-color: black;
+    height: 255vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    background: radial-gradient(89.92% 63.73% at 50% 50%, #EE535D 0%, #850C0C 100%);
+    background: radial-gradient(
+      89.92% 63.73% at 50% 50%,
+      #ee535d 0%,
+      #850c0c 100%
+    );
     border-radius: 25px;
-    font-family: "Poppins", sans-serif;  
-    }
-     .pg5section1{
+    font-family: "Poppins", sans-serif;
+  }
+  .pg5section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 40px;
     gap: 0px;
-    }
-    .imgpg5{
-              margin-top: 30px;
+  }
+  .imgpg5 {
+    margin-top: 30px;
     height: 250px;
     margin-left: -50px;
     width: 250px;
     object-fit: cover;
-    }
-    .pgsection11{
-             margin-bottom: 40px;
-    }
-    .h2ofpg51{
-          font-size: 18px;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          width: 250px;
-    }
-    .pofpg5{
+  }
+  .pgsection11 {
+    margin-bottom: 40px;
+  }
+  .h2ofpg51 {
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+  }
+  .pofpg5 {
     width: 270px;
     font-size: 7px;
     color: rgba(255, 255, 255, 1);
@@ -842,8 +889,8 @@
     justify-content: center;
     text-align: center;
     margin-right: 10px;
-    } 
-   .bottle {
+  }
+  .bottle {
     height: 50px;
     width: 100%;
     text-align: center;
@@ -853,8 +900,8 @@
     color: white;
     justify-content: space-between;
     font-weight: 100;
-}
-    .pg5section2{
+  }
+  .pg5section2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -866,9 +913,13 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-    }
-    .pg5section3{
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .pg5section3 {
     display: flex;
     flex-direction: row;
     padding-top: 13px;
@@ -879,14 +930,14 @@
     margin: auto;
     padding: 25px;
     gap: 1px;
-    }
-    .imgpg51{
+  }
+  .imgpg51 {
     height: 180px;
     width: 260px;
     object-fit: cover;
     margin-right: 20px;
-    }
-    .pofpg51{
+  }
+  .pofpg51 {
     font-size: 8px;
     color: rgba(255, 255, 255, 1);
     height: 180px;
@@ -898,20 +949,20 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     /* margin-left: -2px; */
     margin-right: 25px;
-    }
-    .imgpg511{
+  }
+  .imgpg511 {
     height: 180px;
     width: 260px;
     object-fit: cover;
-    }
-    .pofpg511{
-       font-size: 8px;
+  }
+  .pofpg511 {
+    font-size: 8px;
     color: rgba(255, 255, 255, 1);
     height: 200px;
     font-weight: 500;
@@ -922,12 +973,12 @@
     text-align: center;
     padding-top: 10px;
     margin-top: -150px;
-    background: linear-gradient(156.83deg, #FFFFFF -16.11%, #2E44BA 131.66%);
+    background: linear-gradient(156.83deg, #ffffff -16.11%, #2e44ba 131.66%);
     color: rgba(20, 20, 20, 1);
     border-radius: 30px;
     line-height: 1.2;
     margin-left: -2px;
-    }
+  }
   .pg5section2 {
     display: flex;
     flex-direction: row;
@@ -940,10 +991,13 @@
     border-color: transparent;
     border-radius: 20px;
     padding: 2px;
-    background: linear-gradient(220.26deg, rgba(255, 255, 255, 0.25) 1.52%, rgba(255, 255, 255, 0.025) 83.2%);
-
-}
-   .usa {
+    background: linear-gradient(
+      220.26deg,
+      rgba(255, 255, 255, 0.25) 1.52%,
+      rgba(255, 255, 255, 0.025) 83.2%
+    );
+  }
+  .usa {
     font-size: 12px;
     height: 25px;
     font-weight: 500;
@@ -953,8 +1007,8 @@
     border: 0cap;
     color: white;
     cursor: pointer;
-}
- .canada {
+  }
+  .canada {
     font-size: 12px;
     height: 25px;
     font-weight: 500;
@@ -964,20 +1018,17 @@
     border: 0cap;
     color: white;
     cursor: pointer;
-}
-.canada.active {
+  }
+  .canada.active {
     font-size: 12px;
     font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
     color: black;
-}
-.usa.active {
+  }
+  .usa.active {
     font-size: 12px;
     font-weight: 500;
-    background: linear-gradient(189.18deg, #FFFFFF 5.92%, #2E44BA 81.6%);
+    background: linear-gradient(189.18deg, #ffffff 5.92%, #2e44ba 81.6%);
     color: black;
+  }
 }
-
-
-} 
-   

@@ -1,46 +1,45 @@
 .pagefour {
-    height: 100vh;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .imagee {
-    margin: 30px;
-    height: 500px;
-    width: 600px;
+  margin: 30px;
+  height: 500px;
+  width: 600px;
 }
 .pgfourbox {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
 }
 .pg4heading {
-    width: 407;
-    height: 73;
-    margin-bottom: 5px;
-    font-weight: 500;
-    font-size: 50px;
-    color: rgba(181, 37, 46, 1);
-
+  width: 407;
+  height: 73;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgba(181, 37, 46, 1);
 }
 
 .ptagofpg4 {
-    font-size: 15px;
-    color: rgba(20, 20, 20, 1);
-    margin: -8px;
-    margin: 5px;
-    line-height: 16pt;
+  font-size: 15px;
+  color: rgba(20, 20, 20, 1);
+  margin: -8px;
+  margin: 5px;
+  line-height: 16pt;
 }
 
 /* for medium laptops */
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-   .pagefour {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pagefour {
     height: 90vh;
     width: 100%;
     background-color: white;
@@ -51,38 +50,38 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-.imagee{
-            margin: 30px;
+  }
+  .imagee {
+    margin: 30px;
     height: 450px;
     width: 450px;
-    }
-    .pgfourbox{
-          display: flex;
+  }
+  .pgfourbox {
+    display: flex;
     flex-direction: column;
     margin: 30px;
-    }
-    .pg4heading{
-            width: 407;
+  }
+  .pg4heading {
+    width: 407;
     height: 73;
     margin-bottom: 5px;
     font-weight: 500;
     font-size: 40px;
     color: rgba(181, 37, 46, 1);
-    }
-    .ptagofpg4{
-          font-size: 12px;
+  }
+  .ptagofpg4 {
+    font-size: 12px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     margin: 5px;
-    line-height: 10 pt; 
-    }
-} 
-    
+    line-height: 10 pt;
+  }
+}
+
 /* for tablets */
-@media screen and (min-width:  425px) and (max-width: 768px) { 
-    .pagefour{
-           height: 80vh;
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .pagefour {
+    height: 80vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -92,39 +91,39 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    }
-     .imagee{
-            margin: 30px;
+  }
+  .imagee {
+    margin: 30px;
     height: 350px;
     width: 350px;
-    }
-    .pgfourbox{
-          display: flex;
+  }
+  .pgfourbox {
+    display: flex;
     flex-direction: column;
     margin: 30px;
-    }
-    .pg4heading{
-            width: 407;
+  }
+  .pg4heading {
+    width: 407;
     height: 73;
     margin-bottom: 5px;
     font-weight: 500;
     font-size: 30px;
     color: rgba(181, 37, 46, 1);
-    }
-    .ptagofpg4{
-        /* width: 300px; */
-          font-size: 8px;
+  }
+  .ptagofpg4 {
+    /* width: 300px; */
+    font-size: 7px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     margin: 5px;
-    line-height: 10pt; 
-    }
-} 
-   
+    line-height: 10pt;
+  }
+}
+
 /* for large mobile */
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
-    .pagefour{
-           height: 90vh;
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .pagefour {
+    height: 110vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -134,46 +133,46 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    }
-     .imagee{
-            /* margin-top: 30px; */
-            margin-bottom: -80px;
-            /* margin-top: -10px; */
+  }
+  .imagee {
+    /* margin-top: 30px; */
+    margin-bottom: -80px;
+    /* margin-top: -10px; */
     height: 250px;
     width: 250px;
-    }
-    .pgfourbox{
-          display: flex;
+  }
+  .pgfourbox {
+    display: flex;
     flex-direction: column;
     margin-top: 80px;
-    }
-    .pg4heading{
-            width: 407;
+  }
+  .pg4heading {
+    width: 407;
     height: 73;
     margin-bottom: 5px;
     font-weight: 500;
     font-size: 25px;
     color: rgba(181, 37, 46, 1);
-     align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .ptagofpg4{
-        /* width: 300px; */
-          font-size: 8px;
+  }
+  .ptagofpg4 {
+    /* width: 300px; */
+    font-size: 8px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 5px;
-    line-height: 10pt; 
-    }
-} 
+    line-height: 10pt;
+  }
+}
 /* for medium tablets */
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
-    .pagefour{
-           height: 90vh;
+@media screen and (min-width: 321px) and (max-width: 374px) {
+  .pagefour {
+    height: 90vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -183,49 +182,48 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    }
-     .imagee{
-            /* margin-top: 30px; */
-            margin-bottom: -80px;
-            /* margin-top: -10px; */
+  }
+  .imagee {
+    /* margin-top: 30px; */
+    margin-bottom: -80px;
+    /* margin-top: -10px; */
     height: 230px;
     width: 230px;
-    }
+  }
 
-    .pgfourbox{
-          display: flex;
+  .pgfourbox {
+    display: flex;
     flex-direction: column;
     margin-top: 80px;
-    }
-    .pg4heading{
-            width: 407;
+  }
+  .pg4heading {
+    width: 407;
     height: 73;
     margin-bottom: 5px;
     font-weight: 500;
     font-size: 23px;
     color: rgba(181, 37, 46, 1);
-     align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .ptagofpg4{
-        /* width: 300px; */
-          font-size: 7px;
+  }
+  .ptagofpg4 {
+    /* width: 300px; */
+    font-size: 7px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 5px;
-    line-height: 10pt; 
-    }
-} 
+    line-height: 10pt;
+  }
+}
 
-   
 /* for small mobiles */
-@media screen and  (min-width: 200px) and (max-width: 320px) { 
-    .pagefour{
-           height: 90vh;
+@media screen and (min-width: 200px) and (max-width: 320px) {
+  .pagefour {
+    height: 90vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -235,40 +233,39 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    }
- .imagee{
-            /* margin-top: 30px; */
-            margin-bottom: -80px;
-            /* margin-top: -10px; */
+  }
+  .imagee {
+    /* margin-top: 30px; */
+    margin-bottom: -80px;
+    /* margin-top: -10px; */
     height: 200px;
     width: 200px;
-    }
-    .pgfourbox{
-          display: flex;
+  }
+  .pgfourbox {
+    display: flex;
     flex-direction: column;
     margin-top: 80px;
-    } 
-    .pg4heading{
-            width: 407;
+  }
+  .pg4heading {
+    width: 407;
     /* height: 73; */
     margin-bottom: 5px;
     font-weight: 500;
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
-     align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .ptagofpg4{
-        /* width: 300px; */
-          font-size: 6px;
+  }
+  .ptagofpg4 {
+    /* width: 300px; */
+    font-size: 6px;
     color: rgba(20, 20, 20, 1);
     margin: -8px;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 5px;
-    line-height: 10pt; 
-    }
-} 
-   
+    line-height: 10pt;
+  }
+}

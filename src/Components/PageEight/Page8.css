@@ -1,181 +1,179 @@
 .header {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .page8 {
-    height: 100vh;
-    width: 100%;
-    background-color: white;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
 }
 .page8imgg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 .page8img {
-    height: 300px;
-    width: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 .page8heading {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-    color: rgba(20, 20, 20, 1);
-    margin-bottom: -15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(20, 20, 20, 1);
+  margin-bottom: -15px;
 }
 
 .spancolor {
-    color: rgba(181, 37, 46, 1);
+  color: rgba(181, 37, 46, 1);
 }
 
 .footer {
-    height: 350px;
-    align-items: center;
-    justify-content: center;
-    text-align: start;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
 
 .h2heading {
-    font-size: 25px;
-    color: rgba(181, 37, 46, 1);
+  font-size: 25px;
+  color: rgba(181, 37, 46, 1);
 }
 .h2headinggg {
-    font-size: 25px;
-    color: rgba(181, 37, 46, 1);
+  font-size: 25px;
+  color: rgba(181, 37, 46, 1);
 }
 
-
 .subbtn {
-    height: 40px;
-    width: 400px;
-    border: 1px solid black;
-    ;
-    border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .entermail {
-    height: 25px;
-    width: 250px;
-    padding: 7.5px;
-    border-radius: 9px;
-    border-color: transparent;
-    border: transparent;
+  height: 25px;
+  width: 250px;
+  padding: 7.5px;
+  border-radius: 9px;
+  border-color: transparent;
+  border: transparent;
 }
 
 .input.entermail {
-    border: transparent;
-    font-size: 30px;
+  border: transparent;
+  font-size: 30px;
 }
 
 .entermail::placeholder {
-    font-size: 15px;
-    border: transparent;
-    color: rgba(20, 20, 20, 1);
+  font-size: 15px;
+  border: transparent;
+  color: rgba(20, 20, 20, 1);
 }
 
 .subsribebtn {
-    height: 35px;
-    width: 120px;
-    padding: 5px;
-    margin-left: 7px;
-    border-radius: 10px;
-    background: rgba(181, 37, 46, 1);
-    color: white;
-    font-size: 13px;
-    border-color: transparent;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  margin-left: 7px;
+  border-radius: 10px;
+  background: rgba(181, 37, 46, 1);
+  color: white;
+  font-size: 13px;
+  border-color: transparent;
 }
 
 .h22heading {
-    font-size: 12px;
-    font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .h222heading {
-    font-size: 25px;
-    color: rgba(181, 37, 46, 1);
+  font-size: 25px;
+  color: rgba(181, 37, 46, 1);
 }
 
 .subcribeptag {
-    color: rgba(20, 20, 20, 1);
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+  color: rgba(20, 20, 20, 1);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .link {
-    color: rgba(20, 20, 20, 1);
-    font-size: 20px;
-    padding-top: 3px;
-    text-decoration: none;
+  color: rgba(20, 20, 20, 1);
+  font-size: 20px;
+  padding-top: 3px;
+  text-decoration: none;
 }
 
 .footerr {
-    font-size: 15px;
-    font-weight: 400;
-    padding-top: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 2px;
 }
 
 .lasttitle {
-    height: 20px;
-    background: rgba(181, 37, 46, 1);
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
+  height: 20px;
+  background: rgba(181, 37, 46, 1);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .cc {
-    padding: 1px;
-    font-size: 15px;
-    border: 2px solid white;
-    border-radius: 30px;
+  padding: 1px;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 30px;
 }
 
 .contacts {
-    font-size: 15px;
-    color: rgba(181, 37, 46, 1);
+  font-size: 15px;
+  color: rgba(181, 37, 46, 1);
 }
 /* for medium laptops */
-@media screen and (min-width:  768px) and (max-width: 1024px) { 
-    .page8{
-      height: 80vh;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .page8 {
+    height: 80vh;
     width: 100%;
     background-color: white;
-    }
-      .page8imgg{
-     display: flex;
+  }
+  .page8imgg {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
-    }
-    .page8img{
-   height: 280px;
+  }
+  .page8img {
+    height: 280px;
     width: 280px;
-    }
-    .page8heading{
+  }
+  .page8heading {
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 18px;
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
-    }
-    .footer{
+  }
+  .footer {
     height: 350px;
     align-items: center;
     justify-content: center;
@@ -183,29 +181,29 @@
     display: flex;
     flex-direction: row;
     gap: 60px;
-    }
-    .subcribeptag{
-       color: rgba(20, 20, 20, 1);
+  }
+  .subcribeptag {
+    color: rgba(20, 20, 20, 1);
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 10px;
-    }
-    .subbtn{
-      height: 40px;
+  }
+  .subbtn {
+    height: 40px;
     width: 380px;
     border: 1px solid black;
     border-radius: 10px;
-    }
-    .entermail{
-      height: 25px;
+  }
+  .entermail {
+    height: 25px;
     width: 230px;
     padding: 7.5px;
     border-radius: 9px;
     border-color: transparent;
     border: transparent;
-    }
-    .subsribebtn{
-      height: 35px;
+  }
+  .subsribebtn {
+    height: 35px;
     width: 100px;
     padding: 5px;
     margin-left: 7px;
@@ -214,76 +212,76 @@
     color: white;
     font-size: 13px;
     border-color: transparent;
-    }
-    .links{
-  display: flex;
+  }
+  .links {
+    display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    }
-    .h2heading{
-     font-size: 23px;
+  }
+  .h2heading {
+    font-size: 23px;
     color: rgba(181, 37, 46, 1);
-    }
-    .link{
-     color: rgba(20, 20, 20, 1);
+  }
+  .link {
+    color: rgba(20, 20, 20, 1);
     font-size: 18px;
     padding-top: 3px;
     text-decoration: none;
-    }
-    .h22heading{
-     font-size: 10px;
+  }
+  .h22heading {
+    font-size: 10px;
     font-weight: 400;
-    }
-    .h222heading{
-        margin-bottom: 10px;
-     font-size: 23px;
+  }
+  .h222heading {
+    margin-bottom: 10px;
+    font-size: 23px;
     color: rgba(181, 37, 46, 1);
-    }
-    .contacts{
-       font-size: 13px;
+  }
+  .contacts {
+    font-size: 13px;
     color: rgba(181, 37, 46, 1);
-    }
-    .lasttitle{
-     height: 20px;
+  }
+  .lasttitle {
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
     padding: 10px;
     margin-top: 10px;
-    }
-    .footerr{
+  }
+  .footerr {
     font-size: 13px;
     font-weight: 400;
     padding-top: 2px;
-    }
+  }
 }
-  
+
 /* for tablets */
-@media screen and (min-width:  425px) and (max-width: 768px) { 
-    .page8{
-      height: 80vh;
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .page8 {
+    height: 80vh;
     width: 100%;
     background-color: white;
-    }
-     .page8imgg{
-     display: flex;
+  }
+  .page8imgg {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
-    }
-    .page8img{
-   height: 280px;
+  }
+  .page8img {
+    height: 280px;
     width: 280px;
-    }
-    .page8heading{
+  }
+  .page8heading {
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 17px;
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
-    }
-    .footer{
+  }
+  .footer {
     height: 275px;
     align-items: center;
     justify-content: center;
@@ -291,29 +289,29 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    }
-    .subcribeptag{
-       color: rgba(20, 20, 20, 1);
+  }
+  .subcribeptag {
+    color: rgba(20, 20, 20, 1);
     font-size: 14px;
     margin-top: 25px;
     margin-bottom: 10px;
-    }
-    .subbtn{
-      height: 40px;
+  }
+  .subbtn {
+    height: 40px;
     width: 300px;
     border: 1px solid black;
     border-radius: 10px;
-    }
-    .entermail{
-      height: 25px;
+  }
+  .entermail {
+    height: 25px;
     width: 160px;
     padding: 7.5px;
     border-radius: 9px;
     border-color: transparent;
     border: transparent;
-    }
-    .subsribebtn{
-      height: 35px;
+  }
+  .subsribebtn {
+    height: 35px;
     width: 100px;
     padding: 5px;
     margin-left: 5px;
@@ -322,74 +320,74 @@
     color: white;
     font-size: 13px;
     border-color: transparent;
-    }
-    .links{
-  display: flex;
+  }
+  .links {
+    display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    }
-    .h2heading{
-     font-size: 20px;
+  }
+  .h2heading {
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .link{
-     color: rgba(20, 20, 20, 1);
+  }
+  .link {
+    color: rgba(20, 20, 20, 1);
     font-size: 13px;
     /* padding-top: 3px; */
     width: 100px;
     text-decoration: none;
-    }
-    .h22heading{
-     font-size: 10px;
+  }
+  .h22heading {
+    font-size: 10px;
     font-weight: 400;
-    }
-    .h222heading{
-        margin-bottom: 15px;
-     font-size: 20px;
+  }
+  .h222heading {
+    margin-bottom: 15px;
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .contacts{
-       font-size: 13px;
+  }
+  .contacts {
+    font-size: 13px;
     color: rgba(181, 37, 46, 1);
-    }
-    .lasttitle{
-     height: 20px;
+  }
+  .lasttitle {
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
     padding: 10px;
     margin-top: 0px;
-    }
-    .footerr{
+  }
+  .footerr {
     font-size: 13px;
     font-weight: 400;
     padding-top: 2px;
-    }
- .h2headinggg {
+  }
+  .h2headinggg {
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
     margin-top: -23px;
+  }
 }
-}
-   
+
 /* for large mobiles */
-@media screen and  (min-width:  375px) and (max-width: 425px) { 
-    .page8{
-      height: 120vh;
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .page8 {
+    height: 120vh;
     width: 100%;
     background-color: white;
-    }
-     .page8imgg{
-     display: flex;
+  }
+  .page8imgg {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
-    }
-    .page8img{
-   height: 250px;
+  }
+  .page8img {
+    height: 250px;
     width: 250px;
-    }
-    .page8heading{
+  }
+  .page8heading {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -397,8 +395,8 @@
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
     /* padding: 20px; */
-    }
-    .footer{
+  }
+  .footer {
     height: 430px;
     align-items: center;
     justify-content: center;
@@ -408,29 +406,29 @@
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
-    }
-    .subcribeptag{
-       color: rgba(20, 20, 20, 1);
+  }
+  .subcribeptag {
+    color: rgba(20, 20, 20, 1);
     font-size: 13px;
     margin-top: 25px;
     margin-bottom: 10px;
-    }
-    .subbtn{
-      height: 40px;
+  }
+  .subbtn {
+    height: 40px;
     width: 230px;
     border: 1px solid black;
     border-radius: 10px;
-    }
-    .entermail{
-      height: 25px;
+  }
+  .entermail {
+    height: 25px;
     width: 100px;
     padding: 7.5px;
     border-radius: 9px;
     border-color: transparent;
     border: transparent;
-    }
-    .subsribebtn{
-      height: 35px;
+  }
+  .subsribebtn {
+    height: 35px;
     width: 80px;
     padding: 5px;
     margin-left: 20px;
@@ -439,85 +437,85 @@
     color: white;
     font-size: 12px;
     border-color: transparent;
-    }
-    .links{
-  display: flex;
+  }
+  .links {
+    display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    }
-    .h2heading{
-     font-size: 20px;
+  }
+  .h2heading {
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .link{
-     color: rgba(20, 20, 20, 1);
+  }
+  .link {
+    color: rgba(20, 20, 20, 1);
     font-size: 13px;
     /* padding-top: 3px; */
     width: 100px;
     text-decoration: none;
-    }
-    .h22heading{
-     font-size: 10px;
+  }
+  .h22heading {
+    font-size: 10px;
     font-weight: 400;
     margin-left: 70px;
     margin-right: -10px;
-    }
-    .h222heading{
-        margin-bottom: 15px;
-     font-size: 20px;
+  }
+  .h222heading {
+    margin-bottom: 15px;
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .contacts{
-       font-size: 13px;
+  }
+  .contacts {
+    font-size: 13px;
     color: rgba(181, 37, 46, 1);
-    } 
-    .lasttitle{
-     height: 20px;
+  }
+  .lasttitle {
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
     padding: 10px;
     margin-top: 0px;
-    }
-    .footerr{
+  }
+  .footerr {
     font-size: 10px;
     font-weight: 400;
     padding-top: 2px;
-    }
- .h2headinggg {
+  }
+  .h2headinggg {
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
     margin-top: -23px;
-}
-.input.entermail {
+  }
+  .input.entermail {
     border: transparent;
     font-size: 0px;
-}
-.entermail::placeholder {
+  }
+  .entermail::placeholder {
     font-size: 12px;
     border: transparent;
     color: rgba(20, 20, 20, 1);
+  }
 }
-}
-   
+
 /* for small tablets */
-@media screen and  (min-width:  320px) and (max-width: 375px) { 
-    .page8{
-      height: 120vh;
+@media screen and (min-width: 321px) and (max-width: 374px) {
+  .page8 {
+    height: 120vh;
     width: 100%;
     background-color: white;
-    }
-     .page8imgg{
-     display: flex;
+  }
+  .page8imgg {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
-    }
-    .page8img{
-   height: 240px;
+  }
+  .page8img {
+    height: 240px;
     width: 240px;
-    }
-    .page8heading{
+  }
+  .page8heading {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -525,8 +523,8 @@
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
     /* padding: 20px; */
-    }
-    .footer{
+  }
+  .footer {
     height: 430px;
     align-items: center;
     justify-content: center;
@@ -537,30 +535,30 @@
     gap: 30px;
     margin-top: 20px;
     padding: 6px;
-    }
+  }
 
-    .subcribeptag{
-       color: rgba(20, 20, 20, 1);
+  .subcribeptag {
+    color: rgba(20, 20, 20, 1);
     font-size: 12px;
     margin-top: 25px;
     margin-bottom: 10px;
-    }
-    .subbtn{
-      height: 40px;
+  }
+  .subbtn {
+    height: 40px;
     width: 230px;
     border: 1px solid black;
     border-radius: 10px;
-    }
-    .entermail{
-      height: 25px;
+  }
+  .entermail {
+    height: 25px;
     width: 100px;
     padding: 7.5px;
     border-radius: 9px;
     border-color: transparent;
     border: transparent;
-    }
-    .subsribebtn{
-      height: 35px;
+  }
+  .subsribebtn {
+    height: 35px;
     width: 80px;
     padding: 5px;
     margin-left: 20px;
@@ -569,86 +567,86 @@
     color: white;
     font-size: 12px;
     border-color: transparent;
-    }
-    .links{
-  display: flex;
+  }
+  .links {
+    display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    }
-    .h2heading{
-     font-size: 18px;
+  }
+  .h2heading {
+    font-size: 18px;
     color: rgba(181, 37, 46, 1);
-    }
-    .link{
-     color: rgba(20, 20, 20, 1);
+  }
+  .link {
+    color: rgba(20, 20, 20, 1);
     font-size: 13px;
     /* padding-top: 3px; */
     width: 100px;
     text-decoration: none;
-    }
-    .h22heading{
-     font-size: 10px;
+  }
+  .h22heading {
+    font-size: 10px;
     font-weight: 400;
     margin-left: 70px;
     margin-right: -10px;
-    }
-    .h222heading{
-        margin-bottom: 15px;
-     font-size: 20px;
+  }
+  .h222heading {
+    margin-bottom: 15px;
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .contacts{
-       font-size: 13px;
+  }
+  .contacts {
+    font-size: 13px;
     color: rgba(181, 37, 46, 1);
-    }
-    .lasttitle{
-     height: 20px;
+  }
+  .lasttitle {
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
     padding: 10px;
     margin-top: 0px;
-    }
-    .footerr{
+  }
+  .footerr {
     font-size: 10px;
     font-weight: 400;
     padding-top: 2px;
-    }
- .h2headinggg {
+  }
+  .h2headinggg {
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
     margin-top: -23px;
-}
-.input.entermail {
+  }
+  .input.entermail {
     border: transparent;
     font-size: 0px;
-}
- 
-.entermail::placeholder {
+  }
+
+  .entermail::placeholder {
     font-size: 12px;
     border: transparent;
     color: rgba(20, 20, 20, 1);
+  }
 }
-}
-   
+
 /* for mobile phones */
-@media screen and  (min-width:  200px) and (max-width: 320px) { 
-    .page8{
-      height: 130vh;
+@media screen and (min-width: 200px) and (max-width: 320px) {
+  .page8 {
+    height: 130vh;
     width: 100%;
     background-color: white;
-    }
-    .page8imgg{
-     display: flex;
+  }
+  .page8imgg {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 160px;
-    }
-    .page8img{
-   height: 200px;
+  }
+  .page8img {
+    height: 200px;
     width: 200px;
-    }
-    .page8heading{
+  }
+  .page8heading {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -656,8 +654,8 @@
     color: rgba(20, 20, 20, 1);
     margin-bottom: -14px;
     /* padding: 20px; */
-    }
-    .footer{
+  }
+  .footer {
     height: 500px;
     align-items: center;
     justify-content: center;
@@ -668,39 +666,39 @@
     gap: 30px;
     margin-top: 20px;
     padding: 6px;
-    } 
-    .h2heading{
-   font-size: 17px !important;
+  }
+  .h2heading {
+    font-size: 17px !important;
     color: rgba(181, 37, 46, 1);
     align-items: center;
     justify-content: center;
     text-align: center;
     /* margin-bottom: -20px; */
-    }
-    .subcribeptag{
-       color: rgba(20, 20, 20, 1);
+  }
+  .subcribeptag {
+    color: rgba(20, 20, 20, 1);
     font-size: 10px;
     margin-bottom: 10px;
-         align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .subbtn{
-      height: 30px;
+  }
+  .subbtn {
+    height: 30px;
     width: 250px;
     border: 1px solid black;
     border-radius: 10px;
-    }
-    .entermail{
-      height: 15px;
+  }
+  .entermail {
+    height: 15px;
     width: 100px;
     padding: 7.5px;
     border-radius: 9px;
     border-color: transparent;
     border: transparent;
-    }
-    .subsribebtn{
-      height: 25px;
+  }
+  .subsribebtn {
+    height: 25px;
     width: 60px;
     padding: 5px;
     margin-left: 60px;
@@ -709,78 +707,76 @@
     color: white;
     font-size: 12px;
     border-color: transparent;
-    }
-    .links{
-  display: flex;
+  }
+  .links {
+    display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    }
-    .h2heading{
-     font-size: 18px;
+  }
+  .h2heading {
+    font-size: 18px;
     color: rgba(181, 37, 46, 1);
-    }
-    .link{
-     color: rgba(20, 20, 20, 1);
+  }
+  .link {
+    color: rgba(20, 20, 20, 1);
     font-size: 13px;
     /* padding-top: 3px; */
     width: 100px;
     text-decoration: none;
-     align-items: center;
-    justify-content: center;
-    text-align: center;
-    }
-    .h22heading{
-     font-size: 8px;
-    font-weight: 300;
-    /* margin-left: 70px; */
-    /* margin-right: -10px; */
-   margin-top: -60px;
-   margin-left: 0px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .h222heading{
-        margin-bottom: 15px;
-     font-size: 20px;
-    color: rgba(181, 37, 46, 1);
-     align-items: center;
+  }
+  .h22heading {
+    font-size: 8px;
+    font-weight: 300;
+    /* margin-left: 70px; */
+    /* margin-right: -10px; */
+    margin-top: -60px;
+    margin-left: 0px;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    }
-    .contacts{
-       font-size: 13px;
+  }
+  .h222heading {
+    margin-bottom: 15px;
+    font-size: 20px;
     color: rgba(181, 37, 46, 1);
-    }
-    .lasttitle{
-     height: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contacts {
+    font-size: 13px;
+    color: rgba(181, 37, 46, 1);
+  }
+  .lasttitle {
+    height: 20px;
     background: rgba(181, 37, 46, 1);
     text-align: center;
     color: white;
     padding: 10px;
-    }
-    .footerr{
+  }
+  .footerr {
     font-size: 8px;
     font-weight: 400;
     padding-top: 2px;
-    }
- .h2headinggg {
+  }
+  .h2headinggg {
     font-size: 20px;
     color: rgba(181, 37, 46, 1);
     margin-top: -23px;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-}
-.input.entermail {
+  }
+  .input.entermail {
     border: transparent;
     font-size: 0px;
-}
-.entermail::placeholder {
+  }
+  .entermail::placeholder {
     font-size: 12px;
     border: transparent;
     color: rgba(20, 20, 20, 1);
+  }
 }
-
-} 
-    
