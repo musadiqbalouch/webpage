@@ -130,7 +130,6 @@
   }
 }
 
-/* 🟦 Small Phones: 200px - 319px */
 @media screen and (min-width: 200px) and (max-width: 320px) {
   .page1 {
     height: 50vh;
