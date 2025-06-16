@@ -8,18 +8,18 @@ import Page7 from "./Pageseven/Page7";
 import Page8 from "./PageEight/Page8";
 
 function Homee() {
-  return (
-    <div className="setion1">
-      <Page1 />
-      <Page2 />
-      <Page3 />
-      <Page4 />
-      <Page5 />
-      <Page6 />
-      <Page7 />
-      <Page8 />
-    </div>
-  );
+    return (
+        <div className="setion1">
+            <Page1 />
+            <Page2 />
+            <Page3 />
+            <Page4 />
+            <Page5 />
+            <Page6 />
+            <Page7 />
+            <Page8 />
+        </div>
+    );
 }
 
 export default Homee;
